@@ -101,10 +101,16 @@ function FiyataraApp() {
   useEffect(() => { loadRemoteData(false); }, []);
 
   const filteredProducts = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      return products.filter(p => category === 'Hepsi' || p.category === category);
+    }
+    const qTokens = q.split(/\s+/);
     return products.filter(p => {
-      const matchesQuery = !query || p.name.toLowerCase().includes(query.toLowerCase());
-      const matchesCategory = category === 'Hepsi' || p.category === category;
-      return matchesQuery && matchesCategory;
+      if (category !== 'Hepsi' && p.category !== category) return false;
+      const text = `${p.s || ''} ${p.name || ''}`.toLowerCase();
+      const tokens = text.split(/\s+/);
+      return qTokens.every(qt => tokens.some(t => t.startsWith(qt)));
     });
   }, [products, query, category]);
 
