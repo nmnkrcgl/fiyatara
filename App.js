@@ -76,6 +76,7 @@ function FiyataraApp() {
   const [products, setProducts] = useState(BUNDLED_PRODUCTS);
   const [dataDate, setDataDate] = useState(null);
   const [updating, setUpdating] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
 
   const loadRemoteData = async (notify = false) => {
     if (!REMOTE_DATA_URL || updating) return;
@@ -87,11 +88,14 @@ function FiyataraApp() {
       if (json && Array.isArray(json.products) && json.products.length > 0) {
         setProducts(json.products);
         if (json.updated_at) setDataDate(json.updated_at);
+        setFetchError(false);
         if (notify) alert(`Veri güncellendi: ${json.products.length} ürün (${new Date(json.updated_at || Date.now()).toLocaleDateString('tr-TR')})`);
-      } else if (notify) {
-        alert('Güncellenecek veri bulunamadı.');
+      } else {
+        setFetchError(true);
+        if (notify) alert('Güncellenecek veri bulunamadı.');
       }
     } catch (e) {
+      setFetchError(true);
       if (notify) alert(`Güncelleme başarısız: ${e.message}`);
     } finally {
       setUpdating(false);
@@ -161,6 +165,11 @@ function FiyataraApp() {
           <View style={[styles.metaPill, updating && { backgroundColor: 'rgba(255,255,255,0.12)' }]}>
             <Text style={styles.metaText}>{updating ? '⏳ Güncelleniyor...' : `🕒 ${dataLabel}`}</Text>
           </View>
+          {fetchError && !updating ? (
+            <View style={[styles.metaPill, styles.metaPillWarn]}>
+              <Text style={styles.metaWarnText}>⚠ Çevrimdışı — son bilinen veri</Text>
+            </View>
+          ) : null}
         </View>
       </View>
 
@@ -236,10 +245,16 @@ function FiyataraApp() {
 
                   <View style={styles.priceWrap}>
                     {Object.keys(p.prices).map(m => (
-                      <View key={m} style={styles.priceChip}>
+                      <TouchableOpacity
+                        key={m}
+                        style={styles.priceChip}
+                        activeOpacity={0.6}
+                        disabled={!p.links || !p.links[m]}
+                        onPress={() => p.links && p.links[m] && Linking.openURL(p.links[m])}
+                      >
                         <Text style={styles.priceChipMarket}>{m}</Text>
                         <Text style={styles.priceChipValue}>{fmt(p.prices[m])} TL</Text>
-                      </View>
+                      </TouchableOpacity>
                     ))}
                   </View>
 
@@ -309,7 +324,7 @@ function FiyataraApp() {
             </View>
             {ALL_MARKETS.map(m => {
               const url = selectedProduct.links[m];
-              if (!url) return null;
+              if (!url || !selectedProduct.prices[m]) return null;
               return (
                 <TouchableOpacity key={m} style={styles.marketLinkBtn} activeOpacity={0.8} onPress={() => Linking.openURL(url)}>
                   <View style={{ flexDirection: 'row', alignItems: 'center' }}>
@@ -319,6 +334,11 @@ function FiyataraApp() {
                 </TouchableOpacity>
               );
             })}
+            {selectedProduct.uygunoUrl ? (
+              <TouchableOpacity style={[styles.btn, styles.uygunoBtn]} activeOpacity={0.8} onPress={() => Linking.openURL(selectedProduct.uygunoUrl)}>
+                <Text style={styles.btnText}>🔗 uyguno.com'da Karşılaştırmalı Gör</Text>
+              </TouchableOpacity>
+            ) : null}
             <TouchableOpacity style={[styles.btn, styles.closeBtn]} onPress={() => setSelectedProduct(null)} activeOpacity={0.8}>
               <Text style={[styles.btnText, styles.closeBtnText]}>Kapat</Text>
             </TouchableOpacity>
@@ -362,6 +382,8 @@ const styles = StyleSheet.create({
   headerMeta: { flexDirection: 'row', flexWrap: 'wrap', marginTop: 10 },
   metaPill: { backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 4, marginRight: 8, marginTop: 4 },
   metaText: { color: '#e0e7ff', fontSize: 11, fontWeight: '600' },
+  metaPillWarn: { backgroundColor: 'rgba(245,158,11,0.3)' },
+  metaWarnText: { color: '#fde68a', fontSize: 11, fontWeight: '700' },
   searchWrap: { flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.card, marginHorizontal: 12, marginTop: 12, borderRadius: 12, borderWidth: 1, borderColor: COLORS.border, shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.05, shadowRadius: 3, elevation: 2 },
   searchIcon: { fontSize: 15, paddingLeft: 12 },
   searchBar: { flex: 1, padding: 11, fontSize: 14, color: COLORS.text },
@@ -423,6 +445,7 @@ const styles = StyleSheet.create({
   marketLinkBtn: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: COLORS.priceBg, padding: 13, borderRadius: 12, marginBottom: 8, borderWidth: 1, borderColor: '#dbeafe' },
   marketLinkName: { color: COLORS.primary, fontSize: 13, fontWeight: '700' },
   marketLinkPrice: { color: COLORS.text, fontSize: 13, fontWeight: '800' },
+  uygunoBtn: { backgroundColor: '#16a34a', marginTop: 6, paddingVertical: 11 },
   closeBtn: { backgroundColor: '#eef2f7', marginTop: 6, borderWidth: 1, borderColor: '#e2e8f0' },
   closeBtnText: { color: '#334155' },
 });
