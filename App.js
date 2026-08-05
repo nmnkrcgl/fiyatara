@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity, Linking, Image } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity, Linking, Image, ActivityIndicator } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { PRODUCTS as BUNDLED_PRODUCTS } from './data/products';
 
@@ -49,23 +49,30 @@ function FiyataraApp() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [products, setProducts] = useState(BUNDLED_PRODUCTS);
   const [dataDate, setDataDate] = useState(null);
+  const [updating, setUpdating] = useState(false);
 
-  useEffect(() => {
-    if (!REMOTE_DATA_URL) return;
-    let cancelled = false;
-    (async () => {
-      try {
-        const resp = await fetch(`${REMOTE_DATA_URL}?v=${Date.now()}`, { headers: { 'Cache-Control': 'no-cache' } });
-        if (!resp.ok) return;
-        const json = await resp.json();
-        if (!cancelled && json && Array.isArray(json.products) && json.products.length > 0) {
-          setProducts(json.products);
-          if (json.updated_at) setDataDate(json.updated_at);
-        }
-      } catch (e) {}
-    })();
-    return () => { cancelled = true; };
-  }, []);
+  const loadRemoteData = async (notify = false) => {
+    if (!REMOTE_DATA_URL || updating) return;
+    setUpdating(true);
+    try {
+      const resp = await fetch(`${REMOTE_DATA_URL}?v=${Date.now()}`, { headers: { 'Cache-Control': 'no-cache' } });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const json = await resp.json();
+      if (json && Array.isArray(json.products) && json.products.length > 0) {
+        setProducts(json.products);
+        if (json.updated_at) setDataDate(json.updated_at);
+        if (notify) alert(`Veri güncellendi: ${json.products.length} ürün (${new Date(json.updated_at || Date.now()).toLocaleDateString('tr-TR')})`);
+      } else if (notify) {
+        alert('Güncellenecek veri bulunamadı.');
+      }
+    } catch (e) {
+      if (notify) alert(`Güncelleme başarısız: ${e.message}`);
+    } finally {
+      setUpdating(false);
+    }
+  };
+
+  useEffect(() => { loadRemoteData(false); }, []);
 
   const filteredProducts = useMemo(() => {
     return products.filter(p => {
@@ -99,8 +106,13 @@ function FiyataraApp() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>ZN Fiyatara 🛒</Text>
-        <Text style={styles.headerSubtitle}>{products.length} ürün • {dataLabel}</Text>
+        <View style={styles.headerRow}>
+          <Text style={styles.headerTitle}>ZN Fiyatara 🛒</Text>
+          <TouchableOpacity style={styles.updateBtn} onPress={() => loadRemoteData(true)} disabled={updating}>
+            {updating ? <ActivityIndicator color="#fff" size="small" /> : <Text style={styles.updateBtnText}>↻ Güncelle</Text>}
+          </TouchableOpacity>
+        </View>
+        <Text style={styles.headerSubtitle}>{products.length} ürün • {updating ? 'Güncelleniyor...' : dataLabel}</Text>
       </View>
 
       {tab === 'home' ? (
@@ -220,8 +232,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#f5f5f5' },
   header: { backgroundColor: '#1e3a8a', padding: 15, alignItems: 'center' },
+  headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: '100%', marginBottom: 4 },
   headerTitle: { color: '#fff', fontSize: 20, fontWeight: 'bold' },
   headerSubtitle: { color: '#bfdbfe', fontSize: 12 },
+  updateBtn: { backgroundColor: 'rgba(255,255,255,0.2)', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 20, minWidth: 90, alignItems: 'center' },
+  updateBtnText: { color: '#fff', fontSize: 12, fontWeight: 'bold' },
   searchBar: { backgroundColor: '#fff', padding: 10, margin: 10, borderRadius: 8, borderWidth: 1, borderColor: '#ddd' },
   catWrapper: { flexDirection: 'row', paddingHorizontal: 10, height: 40 },
   catBtn: { backgroundColor: '#e5e7eb', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 15, marginRight: 6, height: 30 },
