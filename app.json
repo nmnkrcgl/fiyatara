@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Fiyatara",
+    "name": "ZN Fiyatara",
     "slug": "fiyatara",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -26,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85bfa7df-f751-498a-af1d-06f4c67e15be"
+      }
     }
   }
 }

@@ -1,54 +1,45 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity, Linking, Image } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { PRODUCTS as BUNDLED_PRODUCTS } from './data/products';
 
-// 1. OTOMATİK 1000+ ÜRÜN ÜRETİCİ VE GÖRSEL HAVUZU
-const CATEGORIES = ['Hepsi', 'Süt & Kahvaltı', 'Temel Gıda', 'Et & Şarküteri', 'Temizlik', 'Manav', 'Atıştırmalık', 'Kişisel Bakım'];
+const REMOTE_DATA_URL = 'https://raw.githubusercontent.com/nmnkrcgl/fiyatara/master/data/products.json';
 
-const IMAGE_POOL = {
-  'Süt & Kahvaltı': 'https://picsum.photos/seed/sut-kahvalti/200/200',
-  'Temel Gıda': 'https://picsum.photos/seed/temel-gida/200/200',
-  'Et & Şarküteri': 'https://picsum.photos/seed/et-sarkuteri/200/200',
-  'Temizlik': 'https://picsum.photos/seed/temizlik/200/200',
-  'Manav': 'https://picsum.photos/seed/manav/200/200',
-  'Atıştırmalık': 'https://picsum.photos/seed/atistirmalik/200/200',
-  'Kişisel Bakım': 'https://picsum.photos/seed/kisisel-bakim/200/200'
+const CAT_ORDER = ['Süt & Kahvaltı', 'Temel Gıda', 'Et & Şarküteri', 'Manav', 'Temizlik', 'Kişisel Bakım', 'Bebek', 'Kedi Ürünleri', 'Atıştırmalık', 'İçecek', 'Diğer'];
+const CATEGORIES = ['Hepsi', ...CAT_ORDER.filter(c => BUNDLED_PRODUCTS.some(p => p.category === c))];
+
+const CATEGORY_COLORS = {
+  'Süt & Kahvaltı': '#fef3c7',
+  'Temel Gıda': '#fde68a',
+  'Et & Şarküteri': '#fecaca',
+  'Manav': '#bbf7d0',
+  'Temizlik': '#a7f3d0',
+  'Kişisel Bakım': '#c7d2fe',
+  'Bebek': '#fbcfe8',
+  'Kedi Ürünleri': '#e9d5ff',
+  'Atıştırmalık': '#fed7aa',
+  'İçecek': '#bae6fd',
+  'Diğer': '#e5e7eb',
 };
 
-const generateProducts = () => {
-  const list = [];
-  const baseProducts = [
-    { name: 'Kaşar Peyniri 500g', cat: 'Süt & Kahvaltı' }, { name: 'Yoğurt 3kg', cat: 'Süt & Kahvaltı' },
-    { name: 'Osmancık Pirinç 2kg', cat: 'Temel Gıda' }, { name: 'Pilavlık Bulgur 1kg', cat: 'Temel Gıda' },
-    { name: 'Dana Sucuk 250g', cat: 'Et & Şarküteri' }, { name: 'Tavuk Göğsü 1kg', cat: 'Et & Şarküteri' },
-    { name: 'Çamaşır Deterjanı 5kg', cat: 'Temizlik' }, { name: 'Sıvı Sabun 500ml', cat: 'Temizlik' },
-    { name: 'Yerli Muz Kg', cat: 'Manav' }, { name: 'Domates Kg', cat: 'Manav' },
-    { name: 'Patates Cipsi Aile Boyu', cat: 'Atıştırmalık' }, { name: 'Çikolatalı Gofret', cat: 'Atıştırmalık' },
-    { name: 'Şampuan 400ml', cat: 'Kişisel Bakım' }, { name: 'Diş Macunu 75ml', cat: 'Kişisel Bakım' }
-  ];
+const ALL_MARKETS = ['A101', 'CarrefourSA', 'Migros', 'ŞOK'];
 
-  // 1000+ ürün çeşitliliği oluşturmak için döngüyle varyasyonlar üretiyoruz
-  for (let i = 1; i <= 1050; i++) {
-    const base = baseProducts[i % baseProducts.length];
-    const bimPrice = Math.floor(Math.random() * 150) + 15;
-    list.push({
-      id: String(i),
-      name: `${base.name} (Model v-${i})`,
-      category: base.cat,
-      image: IMAGE_POOL[base.cat],
-      prices: {
-        bim: bimPrice,
-        a101: Math.floor(bimPrice * (0.9 + Math.random() * 0.2)),
-        sok: Math.floor(bimPrice * (0.95 + Math.random() * 0.1)),
-        migros: Math.floor(bimPrice * (1.05 + Math.random() * 0.2))
-      },
-      urls: { bim: 'https://www.bim.com.tr', a101: 'https://www.a101.com.tr', sok: 'https://www.sokmarket.com.tr', migros: 'https://www.migros.com.tr' }
-    });
+function fmt(price) {
+  if (typeof price !== 'number' || isNaN(price)) return '—';
+  return Number.isInteger(price) ? String(price) : price.toFixed(2);
+}
+
+function ProductThumb({ product }) {
+  const [failed, setFailed] = useState(false);
+  if (product.image && !failed) {
+    return <Image source={{ uri: product.image }} style={styles.productImage} onError={() => setFailed(true)} />;
   }
-  return list;
-};
-
-const PRODUCTS = generateProducts();
+  return (
+    <View style={[styles.iconCircle, { backgroundColor: CATEGORY_COLORS[product.category] || '#e5e7eb' }]}>
+      <Text style={styles.iconText}>{product.icon || '🛒'}</Text>
+    </View>
+  );
+}
 
 function FiyataraApp() {
   const [tab, setTab] = useState('home');
@@ -56,14 +47,33 @@ function FiyataraApp() {
   const [category, setCategory] = useState('Hepsi');
   const [cart, setCart] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [products, setProducts] = useState(BUNDLED_PRODUCTS);
+  const [dataDate, setDataDate] = useState(null);
+
+  useEffect(() => {
+    if (!REMOTE_DATA_URL) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const resp = await fetch(`${REMOTE_DATA_URL}?v=${Date.now()}`, { headers: { 'Cache-Control': 'no-cache' } });
+        if (!resp.ok) return;
+        const json = await resp.json();
+        if (!cancelled && json && Array.isArray(json.products) && json.products.length > 0) {
+          setProducts(json.products);
+          if (json.updated_at) setDataDate(json.updated_at);
+        }
+      } catch (e) {}
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter(p => {
-      const matchesQuery = p.name.toLowerCase().includes(query.toLowerCase());
+    return products.filter(p => {
+      const matchesQuery = !query || p.name.toLowerCase().includes(query.toLowerCase());
       const matchesCategory = category === 'Hepsi' || p.category === category;
       return matchesQuery && matchesCategory;
     });
-  }, [query, category]);
+  }, [products, query, category]);
 
   const getCheapest = (prices) => {
     let minPrice = Infinity;
@@ -71,10 +81,10 @@ function FiyataraApp() {
     Object.keys(prices).forEach(m => {
       if (prices[m] < minPrice) {
         minPrice = prices[m];
-        minMarket = m.toUpperCase();
+        minMarket = m;
       }
     });
-    return { price: minPrice, market: minMarket };
+    return minMarket ? { price: minPrice, market: minMarket } : null;
   };
 
   const addToCart = (product, market, price) => {
@@ -82,17 +92,21 @@ function FiyataraApp() {
     alert(`${product.name} sepete eklendi!`);
   };
 
+  const dataLabel = dataDate
+    ? `Güncel veri: ${new Date(dataDate).toLocaleDateString('tr-TR')}`
+    : 'Gerçek fiyatlar (uyguno.com)';
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Fiyatara Pro 🛒</Text>
-        <Text style={styles.headerSubtitle}>1000+ Ürün ve Canlı Görsel Analizi</Text>
+        <Text style={styles.headerTitle}>ZN Fiyatara 🛒</Text>
+        <Text style={styles.headerSubtitle}>{products.length} ürün • {dataLabel}</Text>
       </View>
 
       {tab === 'home' ? (
         <View style={{ flex: 1 }}>
-          <TextInput style={styles.searchBar} placeholder="1050 ürün arasında ara..." value={query} onChangeText={setQuery} />
-          
+          <TextInput style={styles.searchBar} placeholder={`${products.length} ürün arasında ara...`} value={query} onChangeText={setQuery} />
+
           <View style={{ height: 50 }}>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.catWrapper}>
               {CATEGORIES.map(c => (
@@ -105,32 +119,40 @@ function FiyataraApp() {
 
           <ScrollView style={styles.list}>
             <Text style={styles.countText}>Toplam Listelenen Ürün: {filteredProducts.length}</Text>
-            {filteredProducts.slice(0, 50).map(p => { // Performans için ilk 50'yi anlık çizer
+            {filteredProducts.slice(0, 50).map(p => {
               const cheapest = getCheapest(p.prices);
               return (
                 <View key={p.id} style={styles.card}>
                   <View style={{ flexDirection: 'row', marginBottom: 10 }}>
-                    <Image source={{ uri: p.image }} style={styles.productImage} />
+                    <ProductThumb product={p} />
                     <View style={{ flex: 1, marginLeft: 10 }}>
                       <Text style={styles.cardTitle}>{p.name}</Text>
                       <Text style={styles.cardSub}>{p.category}</Text>
-                      <Text style={styles.cheapestLabel}>En Uygun: {cheapest.price} TL ({cheapest.market})</Text>
+                      {cheapest ? (
+                        <Text style={styles.cheapestLabel}>En Uygun: {fmt(cheapest.price)} TL ({cheapest.market})</Text>
+                      ) : null}
                     </View>
                   </View>
-                  
-                  <View style={styles.priceRow}>
-                    <Text style={styles.marketText}>BİM: {p.prices.bim} TL</Text>
-                    <Text style={styles.marketText}>A101: {p.prices.a101} TL</Text>
-                    <Text style={styles.marketText}>ŞOK: {p.prices.sok} TL</Text>
-                    <Text style={styles.marketText}>MİGROS: {p.prices.migros} TL</Text>
+
+                  <View style={styles.priceWrap}>
+                    {Object.keys(p.prices).map(m => (
+                      <View key={m} style={styles.priceChip}>
+                        <Text style={styles.priceChipMarket}>{m}</Text>
+                        <Text style={styles.priceChipValue}>{fmt(p.prices[m])} TL</Text>
+                      </View>
+                    ))}
                   </View>
 
                   <View style={styles.btnGroup}>
                     <TouchableOpacity style={styles.detailBtn} onPress={() => setSelectedProduct(p)}>
-                      <Text style={styles.btnText}>Market Sayfasına Git</Text>
+                      <Text style={styles.btnText}>Market Sayfaları</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.addBtn} onPress={() => addToCart(p, cheapest.market, cheapest.price)}>
-                      <Text style={styles.btnText}>Sepete Ekle</Text>
+                    <TouchableOpacity
+                      style={styles.addBtn}
+                      disabled={!cheapest}
+                      onPress={() => cheapest && addToCart(p, cheapest.market, cheapest.price)}
+                    >
+                      <Text style={styles.btnText}>{cheapest ? `Sepete Ekle (${cheapest.market})` : 'Sepete Ekle'}</Text>
                     </TouchableOpacity>
                   </View>
                 </View>
@@ -141,11 +163,18 @@ function FiyataraApp() {
       ) : (
         <ScrollView style={styles.list}>
           <Text style={styles.sectionTitle}>Ortak Sepetiniz</Text>
+          {cart.length === 0 && <Text style={styles.emptyText}>Sepetiniz boş. Ürün kartından "Sepete Ekle"ye dokunun.</Text>}
           {cart.map(item => (
             <View key={item.cartId} style={styles.cartCard}>
-              <Text style={styles.cardTitle}>{item.name}</Text>
-              <TouchableOpacity style={styles.goMarketBtn} onPress={() => Linking.openURL(item.urls[item.selectedMarket.toLowerCase()])}>
-                <Text style={styles.btnText}>Siteden Satın Al ({item.selectedPrice} TL)</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={styles.cardTitle}>{item.name}</Text>
+                <Text style={styles.cartSub}>{item.selectedMarket} • {fmt(item.selectedPrice)} TL</Text>
+              </View>
+              <TouchableOpacity style={styles.goMarketBtn} onPress={() => {
+                const url = item.links[item.selectedMarket];
+                if (url) Linking.openURL(url);
+              }}>
+                <Text style={styles.btnText}>Siteden Satın Al</Text>
               </TouchableOpacity>
             </View>
           ))}
@@ -155,12 +184,18 @@ function FiyataraApp() {
       {selectedProduct && (
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalTitle}>İlgili Market Sayfaları</Text>
-            {Object.keys(selectedProduct.prices).map(m => (
-              <TouchableOpacity key={m} style={styles.marketLinkBtn} onPress={() => Linking.openURL(selectedProduct.urls[m])}>
-                <Text style={styles.btnText}>{m.toUpperCase()} Mağazasına Git ({selectedProduct.prices[m]} TL)</Text>
-              </TouchableOpacity>
-            ))}
+            <Text style={styles.modalTitle}>{selectedProduct.name}</Text>
+            {ALL_MARKETS.map(m => {
+              const url = selectedProduct.links[m];
+              if (!url) return null;
+              return (
+                <TouchableOpacity key={m} style={styles.marketLinkBtn} onPress={() => Linking.openURL(url)}>
+                  <Text style={styles.btnText}>
+                    {m} Mağazasında Ara{selectedProduct.prices[m] ? ` (${fmt(selectedProduct.prices[m])} TL)` : ''}
+                  </Text>
+                </TouchableOpacity>
+              );
+            })}
             <TouchableOpacity style={styles.closeBtn} onPress={() => setSelectedProduct(null)}><Text style={styles.btnText}>Kapat</Text></TouchableOpacity>
           </View>
         </View>
@@ -197,14 +232,15 @@ const styles = StyleSheet.create({
   list: { flex: 1, paddingHorizontal: 10 },
   card: { backgroundColor: '#fff', padding: 12, borderRadius: 8, marginBottom: 12, borderWidth: 1, borderColor: '#eee' },
   productImage: { width: 70, height: 70, borderRadius: 6, backgroundColor: '#eee' },
+  iconCircle: { width: 70, height: 70, borderRadius: 35, alignItems: 'center', justifyContent: 'center' },
+  iconText: { fontSize: 32 },
   cardTitle: { fontSize: 14, fontWeight: 'bold' },
-  cardSub: { fontSize: 11, color: '#6b7280' },
-  priceRow: { flexDirection: 'row', justifyContent: 'space-between', backgroundColor: '#f9fafb', padding: 6, borderRadius: 4, marginBottom: 8 },
-marketText: {
-  fontSize: 10,
-  color: '#4b5563'
-},
+  cardSub: { fontSize: 11, color: '#6b7280', marginTop: 2 },
   cheapestLabel: { fontSize: 12, fontWeight: 'bold', color: '#16a34a', marginTop: 4 },
+  priceWrap: { flexDirection: 'row', flexWrap: 'wrap', backgroundColor: '#f9fafb', padding: 6, borderRadius: 4, marginBottom: 8 },
+  priceChip: { backgroundColor: '#e0e7ff', borderRadius: 4, paddingHorizontal: 8, paddingVertical: 4, margin: 2, flexDirection: 'row', alignItems: 'center' },
+  priceChipMarket: { fontSize: 10, color: '#3730a3', fontWeight: 'bold', marginRight: 5 },
+  priceChipValue: { fontSize: 10, color: '#111827', fontWeight: 'bold' },
   btnGroup: { flexDirection: 'row', justifyContent: 'space-between' },
   detailBtn: { backgroundColor: '#4b5563', padding: 8, borderRadius: 4, flex: 0.48, alignItems: 'center' },
   addBtn: { backgroundColor: '#1e3a8a', padding: 8, borderRadius: 4, flex: 0.48, alignItems: 'center' },
@@ -212,7 +248,10 @@ marketText: {
   footer: { flexDirection: 'row', height: 50, backgroundColor: '#fff', borderTopWidth: 1, borderTopColor: '#e5e7eb' },
   tabBtn: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   tabText: { fontSize: 13, color: '#1e3a8a', fontWeight: 'bold' },
+  sectionTitle: { fontSize: 16, fontWeight: 'bold', marginVertical: 10 },
+  emptyText: { fontSize: 13, color: '#6b7280', marginVertical: 20, textAlign: 'center' },
   cartCard: { backgroundColor: '#fff', padding: 12, borderRadius: 8, marginBottom: 8, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  cartSub: { fontSize: 11, color: '#6b7280', marginTop: 2 },
   goMarketBtn: { backgroundColor: '#16a34a', padding: 8, borderRadius: 4 },
   modalOverlay: { position: 'absolute', top: 0, bottom: 0, left: 0, right: 0, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center', zIndex: 999 },
   modalContent: { backgroundColor: '#fff', width: '80%', padding: 15, borderRadius: 10 },
@@ -220,5 +259,3 @@ marketText: {
   marketLinkBtn: { backgroundColor: '#2563eb', padding: 10, borderRadius: 6, marginBottom: 6, alignItems: 'center' },
   closeBtn: { backgroundColor: '#9ca3af', padding: 10, borderRadius: 6, marginTop: 6, alignItems: 'center' }
 });
-
-
