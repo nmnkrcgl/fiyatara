@@ -1,1 +1,1 @@
-
+scripts/validate_products.py
