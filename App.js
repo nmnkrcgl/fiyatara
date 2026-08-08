@@ -334,11 +334,6 @@ function FiyataraApp() {
                 </TouchableOpacity>
               );
             })}
-            {selectedProduct.uygunoUrl ? (
-              <TouchableOpacity style={[styles.btn, styles.uygunoBtn]} activeOpacity={0.8} onPress={() => Linking.openURL(selectedProduct.uygunoUrl)}>
-                <Text style={styles.btnText}>🔗 uyguno.com'da Karşılaştırmalı Gör</Text>
-              </TouchableOpacity>
-            ) : null}
             <TouchableOpacity style={[styles.btn, styles.closeBtn]} onPress={() => setSelectedProduct(null)} activeOpacity={0.8}>
               <Text style={[styles.btnText, styles.closeBtnText]}>Kapat</Text>
             </TouchableOpacity>
@@ -445,7 +440,6 @@ const styles = StyleSheet.create({
   marketLinkBtn: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: COLORS.priceBg, padding: 13, borderRadius: 12, marginBottom: 8, borderWidth: 1, borderColor: '#dbeafe' },
   marketLinkName: { color: COLORS.primary, fontSize: 13, fontWeight: '700' },
   marketLinkPrice: { color: COLORS.text, fontSize: 13, fontWeight: '800' },
-  uygunoBtn: { backgroundColor: '#16a34a', marginTop: 6, paddingVertical: 11 },
   closeBtn: { backgroundColor: '#eef2f7', marginTop: 6, borderWidth: 1, borderColor: '#e2e8f0' },
   closeBtnText: { color: '#334155' },
 });
