@@ -1,4 +1,4 @@
-// uyguno.com canlı verisi (2026-08-20T13:15:29.923Z)
+// uyguno.com canlı verisi (2026-08-21T08:19:19.192Z)
 // Bu dosya scripts/refresh.js tarafından üretilir — elle düzenleme.
 export const PRODUCTS = [
  {
@@ -442,23 +442,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Agiss%20A%C4%9Fda%20Bezi%2025%20Metre%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/agiss-agda-bezi-25-metre"
- },
- {
-  "id": "18129",
-  "name": "Agiva Milk Protein Şekillendirici Saç Spreyi 200 ml",
-  "brand": "Agiva",
-  "s": "milk protein şekillendirici saç spreyi",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8683348004149.png",
-  "prices": {
-   "A101": 89.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Agiva%20Milk%20Protein%20%C5%9Eekillendirici%20Sa%C3%A7%20Spreyi%20200%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/agiva-milk-protein-sekillendirici-sac-spreyi-200-ml"
  },
  {
   "id": "6073",
@@ -1303,7 +1286,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/ayran-kefir/8692886411548.png",
   "prices": {
-   "A101": 115
+   "A101": 89.5
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Alt%C4%B1nk%C4%B1l%C4%B1%C3%A7%20Kefirim%20%C3%87ilekli%20Kefir%201%20L%22"
@@ -1371,7 +1354,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/ayran-kefir/8692886411524.png",
   "prices": {
-   "A101": 49.5
+   "A101": 35
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Alt%C4%B1nk%C4%B1l%C4%B1%C3%A7%20Kefirix%20Kay%C4%B1s%C4%B1%20%26%20Keten%20Tohumlu%20Kefir%20250%20ml%22"
@@ -4958,7 +4941,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/meyve-sebze/biber-dolmalik-kg.jpg",
   "prices": {
-   "Migros": 113.5
+   "Migros": 79.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Biber%20Dolmal%C4%B1k%20kg%22"
@@ -6377,6 +6360,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/black-eagle-enerji-i-cecegi-1-l"
  },
  {
+  "id": "51280",
+  "name": "Blendax Erkek Kepeğe Karşı Etkili Şampuan 500 ml",
+  "brand": "Blendax",
+  "s": "erkek kepeğe karşı etkili şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/2a627e0a-48ad-4d92-92c5-fb9164c1ec02.jpeg",
+  "prices": {
+   "Migros": 174.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Erkek%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/blendax-erkek-kepege-karsi-etkili-sampuan-500-ml"
+ },
+ {
   "id": "18026",
   "name": "Blendax Mentollü Şampuan 500 ml",
   "brand": "Blendax",
@@ -7397,23 +7397,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/burn-enerji-i-cecegi-kutu-4x250-ml"
  },
  {
-  "id": "2652",
-  "name": "Büyük Kuyruk Yağı",
-  "brand": "",
-  "s": "büyük kuyruk yağı",
-  "category": "Diğer",
-  "icon": "🛒",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/et-tavuk-balik/buyuk-kuyruk-yagi.jpg",
-  "prices": {
-   "Migros": 288.96
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22B%C3%BCy%C3%BCk%20Kuyruk%20Ya%C4%9F%C4%B1%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/buyuk-kuyruk-yagi"
- },
- {
   "id": "9164",
   "name": "C&C Ananaslı Çikolata Kaplamalı Gofret 350 G",
   "brand": "",
@@ -7599,6 +7582,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Cafex%20Kahveli%20S%C3%BCtl%C3%BC%20%C4%B0%C3%A7ecek%20Vanilya%20250%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/cafex-kahveli-sutlu-i-cecek-vanilya-250-ml"
+ },
+ {
+  "id": "15631",
+  "name": "Cafex Mocha Soğuk Kahve 250 ml",
+  "brand": "Cafex",
+  "s": "mocha soğuk kahve",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/kahve/8699118033981.png",
+  "prices": {
+   "A101": 39.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Cafex%20Mocha%20So%C4%9Fuk%20Kahve%20250%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/cafex-mocha-soguk-kahve-250-ml"
  },
  {
   "id": "15630",
@@ -8910,6 +8910,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/clear-erling-haaland-sampuan-350-ml"
  },
  {
+  "id": "32922",
+  "name": "Clear Men Kepeğe Karşı Etkili Şampuan Maksimum Ferahlık Yağlı Saç Derisi için Limon Özlü 350 ml",
+  "brand": "Clear",
+  "s": "men kepeğe karşı etkili şampuan maksimum ferahlık yağlı saç derisi için limon özlü",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/a66f03ea-f7f2-43ba-bb1b-f6048f84eefe.jpeg",
+  "prices": {
+   "Migros": 254.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Clear%20Men%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20Maksimum%20Ferahl%C4%B1k%20Ya%C4%9Fl%C4%B1%20Sa%C3%A7%20Derisi%20i%C3%A7in%20Limon%20%C3%96zl%C3%BC%20350%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/clear-men-kepege-karsi-etkili-sampuan-maksimum-ferahlik-yagli-sac-derisi-icin-limon-ozlu-350-ml"
+ },
+ {
   "id": "18003",
   "name": "Clear Men Saç Dökülmesine Karşı Etkili Şampuan 350 ml",
   "brand": "Clear",
@@ -8925,6 +8942,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Clear%20Men%20Sa%C3%A7%20D%C3%B6k%C3%BClmesine%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20350%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/clear-men-sac-dokulmesine-karsi-etkili-sampuan-350-ml"
+ },
+ {
+  "id": "18008",
+  "name": "Clear Vini Jr. Şampuan 350 ml",
+  "brand": "Clear",
+  "s": "vini jr şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8683130089743.png",
+  "prices": {
+   "A101": 119
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Clear%20Vini%20Jr.%20%C5%9Eampuan%20350%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/clear-vini-jr-sampuan-350-ml"
  },
  {
   "id": "34355",
@@ -8976,6 +9010,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Coca%20Cola%20Gazl%C4%B1%20%C4%B0%C3%A7ecek%201%2C75%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/coca-cola-gazli-i-cecek-1-75-l"
+ },
+ {
+  "id": "101303",
+  "name": "Coca Cola Gazlı İçecek 2 L",
+  "brand": "Coca Cola",
+  "s": "gazlı içecek",
+  "category": "İçecek",
+  "icon": "🥤",
+  "weight": "",
+  "image": "https://file.camgoz.net/7a0c4320-a5ab-4fb5-a716-467934a01cae.jpeg",
+  "prices": {
+   "A101": 80
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Coca%20Cola%20Gazl%C4%B1%20%C4%B0%C3%A7ecek%202%20L%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/coca-cola-gazli-icecek-2-l"
  },
  {
   "id": "14073",
@@ -10083,6 +10134,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/cerezos-space-ketcap-aromali-misir-cipsi-50-g"
  },
  {
+  "id": "4374",
+  "name": "Çerezos Süt Mısır Cipsi 100 G",
+  "brand": "Çerezos",
+  "s": "süt mısır cipsi",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/cips/8681506016119.png",
+  "prices": {
+   "A101": 30
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87erezos%20S%C3%BCt%20M%C4%B1s%C4%B1r%20Cipsi%20100%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/cerezos-sut-misir-cipsi-100-g"
+ },
+ {
   "id": "5938",
   "name": "Çerezos Süt Mısır Cipsi 150 G",
   "brand": "Çerezos",
@@ -10933,6 +11001,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/cicegim-cam-temizleyici-1-l"
  },
  {
+  "id": "17167",
+  "name": "Çiçeğim Çamaşır Suyu Ultra 1250 ml",
+  "brand": "Çiçeğim",
+  "s": "çamaşır suyu ultra",
+  "category": "Temizlik",
+  "icon": "🧴",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/camasir/8699118021292.png",
+  "prices": {
+   "A101": 65.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87i%C3%A7e%C4%9Fim%20%C3%87ama%C5%9F%C4%B1r%20Suyu%20Ultra%201250%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/cicegim-camasir-suyu-ultra-1250-ml"
+ },
+ {
   "id": "17307",
   "name": "Çiçeğim Çiçek Bahçesi Banyo & Mutfak Jel Temizleyici 750 ml",
   "brand": "Çiçeğim",
@@ -11647,23 +11732,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/cokca-az-yagli-mayonez-840-g"
  },
  {
-  "id": "12767",
-  "name": "Çokça Bezelye Konservesi 830 G",
-  "brand": "Çokça",
-  "s": "bezelye konservesi",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/konserve/8699118066125.png",
-  "prices": {
-   "A101": 51.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87ok%C3%A7a%20Bezelye%20Konservesi%20830%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/cokca-bezelye-konservesi-830-g"
- },
- {
   "id": "16349",
   "name": "Çokça Çiğ Köfte 1 kg",
   "brand": "Çokça",
@@ -11860,7 +11928,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/konserve/8699118067245.png",
   "prices": {
-   "A101": 41.5
+   "A101": 46.5
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87ok%C3%A7a%20Konserve%20M%C4%B1s%C4%B1r%20340%20G%22"
@@ -12019,23 +12087,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22%C3%87ubuk%20Tur%C5%9Fusu%20kg%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/cubuk-tursusu-kg"
- },
- {
-  "id": "18054",
-  "name": "Daily Perfection Saç Bakım Yağı Argan & E Vitamini 100 ml",
-  "brand": "Daily Perfection",
-  "s": "saç bakım yağı argan e vitamini",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8694965552579.png",
-  "prices": {
-   "A101": 119.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Daily%20Perfection%20Sa%C3%A7%20Bak%C4%B1m%20Ya%C4%9F%C4%B1%20Argan%20%26%20E%20Vitamini%20100%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/daily-perfection-sac-bakim-yagi-argan-e-vitamini-100-ml"
  },
  {
   "id": "90869",
@@ -12327,23 +12378,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/dalin-sampuan-700-ml"
  },
  {
-  "id": "123845",
-  "name": "Damla Doğal Kaynak Suyu Pet 5 L",
-  "brand": "Damla",
-  "s": "doğal kaynak suyu pet",
-  "category": "İçecek",
-  "icon": "🥤",
-  "weight": "",
-  "image": "https://file.camgoz.net/0f973d63-cee4-41cf-8a98-3aed669fee10.jpeg",
-  "prices": {
-   "A101": 36
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Damla%20Do%C4%9Fal%20Kaynak%20Suyu%20Pet%205%20L%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/damla-dogal-kaynak-suyu-pet-5-l"
- },
- {
   "id": "14801",
   "name": "Damla Maden Suyu Elma 6x200 ml",
   "brand": "Damla",
@@ -12370,7 +12404,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/et-tavuk-balik/dana-ciger-kg.jpg",
   "prices": {
-   "Migros": 719.96
+   "Migros": 629.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dana%20Ci%C4%9Fer%20kg%22"
@@ -12421,7 +12455,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/et-tavuk-balik/dana-kiymalik-kg.jpg",
   "prices": {
-   "Migros": 849.95
+   "Migros": 749.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dana%20K%C4%B1ymal%C4%B1k%20kg%22"
@@ -13101,7 +13135,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/gazsiz-icecekler/8690105014631.png",
   "prices": {
-   "A101": 44.5
+   "A101": 30
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Didi%20%C5%9Eeftali%20Buzlu%20%C3%87ay%201%2C5%20L%22"
@@ -13243,23 +13277,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Dimes%20Meyveli%20%C4%B0%C3%A7ecek%20Ek%C5%9Fi%20Elma%201%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dimes-meyveli-i-cecek-eksi-elma-1-l"
- },
- {
-  "id": "14682",
-  "name": "Dimes Meyveli İçecek Karadut Ahududu 200 ml",
-  "brand": "Dimes",
-  "s": "meyveli içecek karadut ahududu",
-  "category": "İçecek",
-  "icon": "🥤",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/gazsiz-icecekler/8690558040997.png",
-  "prices": {
-   "A101": 9.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Dimes%20Meyveli%20%C4%B0%C3%A7ecek%20Karadut%20Ahududu%20200%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dimes-meyveli-i-cecek-karadut-ahududu-200-ml"
  },
  {
   "id": "14679",
@@ -13738,6 +13755,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/dogadan-ayvali-ihlamur-cayi-20-li"
  },
  {
+  "id": "79745",
+  "name": "Doğadan Form Çay Kiraz Saplı 20'Lı",
+  "brand": "Doğadan",
+  "s": "form çay kiraz saplı",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://file.camgoz.net/44680775-90aa-4610-98bd-934316f391db.jpeg",
+  "prices": {
+   "A101": 110
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Do%C4%9Fadan%20Form%20%C3%87ay%20Kiraz%20Sapl%C4%B1%2020'L%C4%B1%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dogadan-form-cay-kiraz-sapli-20-li"
+ },
+ {
   "id": "16070",
   "name": "Doğadan Limonlu Yeşil Çay 20'li",
   "brand": "Doğadan",
@@ -13889,23 +13923,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Do%C4%9Fanay%20%C5%9Eekersiz%20Limonata%201%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/doganay-sekersiz-limonata-1-l"
- },
- {
-  "id": "49816",
-  "name": "Doğuş Black Label Bardak Poşet Çay 25'Li",
-  "brand": "Doğuş",
-  "s": "black label bardak poşet çay",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/8bc8e520-0048-4044-8082-426c6d71d5bd.jpeg",
-  "prices": {
-   "A101": 99.9
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Do%C4%9Fu%C5%9F%20Black%20Label%20Bardak%20Po%C5%9Fet%20%C3%87ay%2025'Li%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dogus-black-label-bardak-poset-cay-25-li"
  },
  {
   "id": "13228",
@@ -14382,6 +14399,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dove%20Nemlendirici%20S%C4%B1v%C4%B1%20Sabun%20Avokado%20Ya%C4%9F%C4%B1%20ve%20Kalendula%20%C3%96z%C3%BC%20450%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dove-nemlendirici-sivi-sabun-avokado-yagi-ve-kalendula-ozu-450-ml"
+ },
+ {
+  "id": "50620",
+  "name": "Dove Nemlendirici Sıvı Sabun Hindistan Cevizi Yağı ve Badem Sütü Özü 450 ml",
+  "brand": "Dove",
+  "s": "nemlendirici sıvı sabun hindistan cevizi yağı ve badem sütü özü",
+  "category": "Temizlik",
+  "icon": "🧴",
+  "weight": "",
+  "image": "https://file.camgoz.net/ef3bba5e-89c8-4e4c-b4af-2b695e8a39b3.jpeg",
+  "prices": {
+   "Migros": 179.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dove%20Nemlendirici%20S%C4%B1v%C4%B1%20Sabun%20Hindistan%20Cevizi%20Ya%C4%9F%C4%B1%20ve%20Badem%20S%C3%BCt%C3%BC%20%C3%96z%C3%BC%20450%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dove-nemlendirici-sivi-sabun-hindistan-cevizi-yagi-ve-badem-sutu-ozu-450-ml"
  },
  {
   "id": "18200",
@@ -15965,23 +15999,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/ekici-tereyagi-350-g"
  },
  {
-  "id": "85692",
-  "name": "Elidor Anında Onarıcı Bakım Şampuanı 650 ml",
-  "brand": "Elidor",
-  "s": "anında onarıcı bakım şampuanı",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/bcae1c6d-9f6a-4747-893a-f906f8a8937f.jpeg",
-  "prices": {
-   "A101": 165
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Elidor%20An%C4%B1nda%20Onar%C4%B1c%C4%B1%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20650%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/elidor-aninda-onarici-bakim-sampuani-650-ml"
- },
- {
   "id": "18012",
   "name": "Elidor Anında Onarıcı Şampuan 650 ml",
   "brand": "Elidor",
@@ -16014,23 +16031,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elidor%20Avokado%20%C3%9Cz%C3%BCm%20%C3%87ekirde%C4%9Fi%20Ya%C4%9F%C4%B1%20%C5%9Eampuan%20400%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/elidor-avokado-uzum-cekirdegi-yagi-sampuan-400-ml"
- },
- {
-  "id": "18013",
-  "name": "Elidor Güçlü ve Parlak Şampuan 650 ml",
-  "brand": "Elidor",
-  "s": "güçlü ve parlak şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8683130108642.png",
-  "prices": {
-   "A101": 165
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Elidor%20G%C3%BC%C3%A7l%C3%BC%20ve%20Parlak%20%C5%9Eampuan%20650%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/elidor-guclu-ve-parlak-sampuan-650-ml"
  },
  {
   "id": "99065",
@@ -16694,6 +16694,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Eti%20Bidolu%20Muz%20Kremal%C4%B1%20Gofret%2081%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/eti-bidolu-muz-kremali-gofret-81-g"
+ },
+ {
+  "id": "9488",
+  "name": "Eti Bumbo Portakal Aromalı Kakaolu Bisküvi 110 G",
+  "brand": "Eti",
+  "s": "bumbo portakal aromalı kakaolu bisküvi",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/biskuvi-kraker/8690526001319.png",
+  "prices": {
+   "A101": 30
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Eti%20Bumbo%20Portakal%20Aromal%C4%B1%20Kakaolu%20Bisk%C3%BCvi%20110%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/eti-bumbo-portakal-aromali-kakaolu-biskuvi-110-g"
  },
  {
   "id": "9550",
@@ -19518,6 +19535,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/galle-elma-sirkesi-750-ml"
  },
  {
+  "id": "13284",
+  "name": "Galle Jalapeno Turşu 350 G",
+  "brand": "Galle",
+  "s": "jalapeno turşu",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/tursu/8699118029595.png",
+  "prices": {
+   "A101": 55
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Galle%20Jalapeno%20Tur%C5%9Fu%20350%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/galle-jalapeno-tursu-350-g"
+ },
+ {
   "id": "13290",
   "name": "Galle Karışık Turşu 3000 G",
   "brand": "Galle",
@@ -19601,6 +19635,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Galle%20Salatal%C4%B1k%20Tur%C5%9Fusu%20No%3A2%203000%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/galle-salatalik-tursusu-no-2-3000-g"
+ },
+ {
+  "id": "4430",
+  "name": "Ganik Fındıklı Süt Reçeli 270 G",
+  "brand": "Ganik",
+  "s": "fındıklı süt reçeli",
+  "category": "Bebek",
+  "icon": "🍼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sut-kahvaltilik/ganik-findikli-sut-receli-270-g.jpg",
+  "prices": {
+   "Migros": 129.9
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ganik%20F%C4%B1nd%C4%B1kl%C4%B1%20S%C3%BCt%20Re%C3%A7eli%20270%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/ganik-findikli-sut-receli-270-g"
  },
  {
   "id": "7039",
@@ -19926,6 +19977,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/give-me-findik-kremali-cikolatali-gofret-40-g"
  },
  {
+  "id": "35654",
+  "name": "Gliss Aqua Revive Şampuan 400 ml",
+  "brand": "Gliss",
+  "s": "aqua revive şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/f68f52b2-927c-4f97-ae1f-aa017069e829.jpeg",
+  "prices": {
+   "Migros": 139.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Gliss%20Aqua%20Revive%20%C5%9Eampuan%20400%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/gliss-aqua-revive-sampuan-400-ml"
+ },
+ {
   "id": "18078",
   "name": "Gliss Full Hair Dökülme Karşıtı Şampuan 400 ml",
   "brand": "Gliss",
@@ -19992,6 +20060,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Gliss%20Oil%20Nutritive%20Besleyici%20%C5%9Eampuan%20400%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/gliss-oil-nutritive-besleyici-sampuan-400-ml"
+ },
+ {
+  "id": "36381",
+  "name": "Gliss Supreme Length Şampuan 400 ml",
+  "brand": "Gliss",
+  "s": "supreme length şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/a2700627-3bd0-4f66-9713-94f3a1ca83e8.jpeg",
+  "prices": {
+   "Migros": 139.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Gliss%20Supreme%20Length%20%C5%9Eampuan%20400%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/gliss-supreme-length-sampuan-400-ml"
  },
  {
   "id": "17991",
@@ -20428,7 +20513,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/sakiz-sekerleme/8691216111394.png",
   "prices": {
-   "A101": 42.5
+   "A101": 49
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Haribo%20Sahanda%20Yumurta%20Yumu%C5%9Fak%20%C5%9Eeker%20200%20G%22"
@@ -22225,8 +22310,8 @@ export const PRODUCTS = [
   "name": "İçim Çikolatalı Pastörize Süt Pet 1 L",
   "brand": "İçim",
   "s": "çikolatalı pastörize süt pet",
-  "category": "Atıştırmalık",
-  "icon": "🍫",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
   "weight": "",
   "image": "https://file.camgoz.net/297cf664-3e79-4b43-b2ea-ca2289a5dbba.jpeg",
   "prices": {
@@ -22782,23 +22867,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/i-pek-koparak-dokulen-saclar-i-cin-sampuan-480-ml"
  },
  {
-  "id": "50420",
-  "name": "İpek Kuru Saçlar İçin Şampuan 480 ml",
-  "brand": "Ipek",
-  "s": "ipek kuru saçlar için şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/cf66e671-2085-46d0-a7d9-e1e18a902eb3.jpeg",
-  "prices": {
-   "A101": 99.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C4%B0pek%20Kuru%20Sa%C3%A7lar%20%C4%B0%C3%A7in%20%C5%9Eampuan%20480%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/ipek-kuru-saclar-icin-sampuan-480-ml"
- },
- {
   "id": "18067",
   "name": "İpek Kuru ve Yıpranmış Saçlar İçin Şampuan 480 ml",
   "brand": "Ipek",
@@ -22916,23 +22984,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C4%B0pek%20Zay%C4%B1f%20Sa%C3%A7lar%20Bitki%20%C3%96zl%C3%BC%20%C5%9Eampuan%20480%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/ipek-zayif-saclar-bitki-ozlu-sampuan-480-ml"
- },
- {
-  "id": "18066",
-  "name": "İpek Zayıf ve Dökülen Saçlar İçin Şampuan 480 ml",
-  "brand": "Ipek",
-  "s": "ipek zayıf ve dökülen saçlar için şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8691132400084.png",
-  "prices": {
-   "A101": 99.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C4%B0pek%20Zay%C4%B1f%20ve%20D%C3%B6k%C3%BClen%20Sa%C3%A7lar%20%C4%B0%C3%A7in%20%C5%9Eampuan%20480%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/i-pek-zayif-ve-dokulen-saclar-i-cin-sampuan-480-ml"
  },
  {
   "id": "1548",
@@ -23547,23 +23598,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/kaanlar-akhisar-uslu-siyah-zeytin-xs-2xs-900-g"
  },
  {
-  "id": "6037",
-  "name": "Kaanlar Az Yağlı Taze Peynir 1 kg",
-  "brand": "Kaanlar",
-  "s": "az yağlı taze peynir",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/beyaz-peynir/8690347010576.png",
-  "prices": {
-   "A101": 249
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Kaanlar%20Az%20Ya%C4%9Fl%C4%B1%20Taze%20Peynir%201%20kg%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/kaanlar-az-yagli-taze-peynir-1-kg"
- },
- {
   "id": "6075",
   "name": "Kaanlar Beyaz Peynir 1 kg",
   "brand": "Kaanlar",
@@ -23930,7 +23964,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/cay/8699118048220.png",
   "prices": {
-   "A101": 225
+   "A101": 259
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Karadem%20Rize%20%C3%87ay%C4%B1%201000%20G%22"
@@ -26293,7 +26327,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/gazli-icecekler/8691020007197.png",
   "prices": {
-   "A101": 45
+   "A101": 55
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Kristal%20Gazl%C4%B1%20%C4%B0%C3%A7ecek%20Kola%201%2C5%20L%22"
@@ -26327,7 +26361,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/gazli-icecekler/8691020007203.png",
   "prices": {
-   "A101": 45
+   "A101": 55
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Kristal%20Gazl%C4%B1%20%C4%B0%C3%A7ecek%20Portakal%201%2C5%20L%22"
@@ -27387,6 +27421,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Lezita%20Tavuk%20Kat%C4%B1%20Ta%C5%9Fl%C4%B1k%20900%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/lezita-tavuk-kati-taslik-900-g"
+ },
+ {
+  "id": "1550",
+  "name": "Limon kg",
+  "brand": "Limon",
+  "s": "",
+  "category": "Manav",
+  "icon": "🥬",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/meyve/2920800.png",
+  "prices": {
+   "A101": 69.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Limon%20kg%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/limon-kg"
  },
  {
   "id": "13393",
@@ -29752,6 +29803,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/missbon-kahveli-sert-seker-43-g"
  },
  {
+  "id": "79847",
+  "name": "Mixmey Elmalı Ve Mangolu Tropic Meyve Bar 20 G",
+  "brand": "Mixmey",
+  "s": "elmalı ve mangolu tropic meyve bar",
+  "category": "Manav",
+  "icon": "🥬",
+  "weight": "",
+  "image": "https://file.camgoz.net/395427d5-a2ff-4a32-82ce-09cc605929b6.jpeg",
+  "prices": {
+   "Migros": 39.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Mixmey%20Elmal%C4%B1%20Ve%20Mangolu%20Tropic%20Meyve%20Bar%2020%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/mixmey-elmali-ve-mangolu-tropic-meyve-bar-20-g"
+ },
+ {
   "id": "10551",
   "name": "Mixmey Yer Fıstıklı ve Muzlu Meyve Bar 35 G",
   "brand": "Mixmey",
@@ -29818,23 +29886,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Molineri%20Makarna%20Unu%201%20kg%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/molineri-makarna-unu-1-kg"
- },
- {
-  "id": "50693",
-  "name": "Molped Her Gün Ferahlık Günlük Ped 20'li",
-  "brand": "Molped",
-  "s": "her gün ferahlık günlük ped",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/9b418e67-ae8f-47a6-8d29-09ffe3e5aa15.jpeg",
-  "prices": {
-   "A101": 28.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Molped%20Her%20G%C3%BCn%20Ferahl%C4%B1k%20G%C3%BCnl%C3%BCk%20Ped%2020'li%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/molped-her-gun-ferahlik-gunluk-ped-20-li"
  },
  {
   "id": "18312",
@@ -29965,10 +30016,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/icecek/monster-enerji-icecegi-kutu-500-ml.jpg",
   "prices": {
-   "Migros": 80
+   "A101": 80
   },
   "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Monster%20Enerji%20%C4%B0%C3%A7ece%C4%9Fi%20Kutu%20500%20ml%22"
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Monster%20Enerji%20%C4%B0%C3%A7ece%C4%9Fi%20Kutu%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/monster-enerji-i-cecegi-kutu-500-ml"
  },
@@ -30158,6 +30209,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Morfose%20Bitkisel%20Tuzsuz%20%C5%9Eampuan%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/morfose-bitkisel-tuzsuz-sampuan-500-ml"
+ },
+ {
+  "id": "18058",
+  "name": "Morfose Keratin Saç Maskesi 25 ml",
+  "brand": "Keratin",
+  "s": "morfose keratin saç maskesi",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8681701012398.png",
+  "prices": {
+   "A101": 19.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Morfose%20Keratin%20Sa%C3%A7%20Maskesi%2025%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/morfose-keratin-sac-maskesi-25-ml"
  },
  {
   "id": "18082",
@@ -31269,8 +31337,8 @@ export const PRODUCTS = [
   "name": "Neutrogena Hızlı Emilen Bakım Kremi 200 ml",
   "brand": "Neutrogena",
   "s": "hızlı emilen bakım kremi",
-  "category": "Bebek",
-  "icon": "🍼",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
   "weight": "",
   "image": "https://uyguno.com/uploads/products/cilt-bakimi/3574660143843.png",
   "prices": {
@@ -31433,23 +31501,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Nimet%20Bu%C4%9Fday%20Unu%205%20kg%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/nimet-bugday-unu-5-kg"
- },
- {
-  "id": "16450",
-  "name": "Nimet Dondurulmuş İnce Çıtır Patates 1 kg",
-  "brand": "Nimet",
-  "s": "dondurulmuş ince çıtır patates",
-  "category": "Manav",
-  "icon": "🥬",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/dondurulmus-gida/8699118077640.png",
-  "prices": {
-   "A101": 95
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Nimet%20Dondurulmu%C5%9F%20%C4%B0nce%20%C3%87%C4%B1t%C4%B1r%20Patates%201%20kg%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/nimet-dondurulmus-i-nce-citir-patates-1-kg"
  },
  {
   "id": "16381",
@@ -32455,6 +32506,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/orkide-aycicek-yagi-2-l"
  },
  {
+  "id": "12403",
+  "name": "Orkide Ayçiçek Yağı 5 L",
+  "brand": "Orkide",
+  "s": "ayçiçek yağı",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sivi-yaglar/8691313010088.png",
+  "prices": {
+   "A101": 499.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Orkide%20Ay%C3%A7i%C3%A7ek%20Ya%C4%9F%C4%B1%205%20L%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/orkide-aycicek-yagi-5-l"
+ },
+ {
   "id": "91879",
   "name": "Orkide Ayçiçek Yağı 5 L Pet",
   "brand": "Orkide",
@@ -32770,7 +32838,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/bakliyat/8699118067511.png",
   "prices": {
-   "A101": 66.5
+   "A101": 75
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Ovadan%20Yasemin%20Pirin%C3%A7%201000%20G%22"
@@ -34053,6 +34121,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/patates-kg"
  },
  {
+  "id": "13150",
+  "name": "Patos Acı Baharat Aromalı Mısır Cipsi 185 G",
+  "brand": "Patos",
+  "s": "acı baharat aromalı mısır cipsi",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/cips/8681506024220.png",
+  "prices": {
+   "A101": 59.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Patos%20Ac%C4%B1%20Baharat%20Aromal%C4%B1%20M%C4%B1s%C4%B1r%20Cipsi%20185%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/patos-aci-baharat-aromali-misir-cipsi-185-g"
+ },
+ {
   "id": "13149",
   "name": "Patos Acı Baharat Aromalı Mısır Cipsi 220 G",
   "brand": "Patos",
@@ -34810,7 +34895,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/seker/8699118024224.png",
   "prices": {
-   "A101": 57.5
+   "A101": 62
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Petek%20K%C3%BCp%20%C5%9Eeker%201000%20G%22"
@@ -34861,7 +34946,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/seker/8699118033707.png",
   "prices": {
-   "A101": 94.5
+   "A101": 99
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Petek%20Toz%20%C5%9Eeker%202000%20G%22"
@@ -34878,7 +34963,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/seker/8699118033684.png",
   "prices": {
-   "A101": 209
+   "A101": 219
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Petek%20Toz%20%C5%9Eeker%205000%20G%22"
@@ -37419,6 +37504,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/rexona-kadin-sprey-deodorant-invisible-beyaz-iz-sari-leke-karsiti-150-ml"
  },
  {
+  "id": "12455",
+  "name": "Rinso Aloe Vera Sıvı Deterjan 3 L",
+  "brand": "Rinso",
+  "s": "aloe vera sıvı deterjan",
+  "category": "Temizlik",
+  "icon": "🧴",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/camasir/8690637959288.png",
+  "prices": {
+   "A101": 145
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Rinso%20Aloe%20Vera%20S%C4%B1v%C4%B1%20Deterjan%203%20L%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/rinso-aloe-vera-sivi-deterjan-3-l"
+ },
+ {
   "id": "12466",
   "name": "Rinso Aloe Vera Sıvı Deterjan 5 L",
   "brand": "Rinso",
@@ -37502,23 +37604,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Rinso%20Toz%20%C3%87ama%C5%9F%C4%B1r%20Deterjan%C4%B1%20Limon%20ve%20Karbonat%20Renkliler%20ve%20Beyazlar%20i%C3%A7in%20Derinlemesine%20Temizlik%206%20kg%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/rinso-toz-camasir-deterjani-limon-ve-karbonat-renkliler-ve-beyazlar-icin-derinlemesine-temizlik-6-kg"
- },
- {
-  "id": "17082",
-  "name": "Rinso Toz Deterjan 10 kg",
-  "brand": "Rinso",
-  "s": "toz deterjan",
-  "category": "Temizlik",
-  "icon": "🧴",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/camasir/8690637959967.png",
-  "prices": {
-   "A101": 329
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Rinso%20Toz%20Deterjan%2010%20kg%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/rinso-toz-deterjan-10-kg"
  },
  {
   "id": "5949",
@@ -37638,23 +37723,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Rolling%20Pops%20S%C3%BCt%20M%C4%B1s%C4%B1r%20Nohut%20Cipsi%2056%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/rolling-pops-sut-misir-nohut-cipsi-56-g"
- },
- {
-  "id": "13014",
-  "name": "Ruffles Ketçap Aromalı Patates Cipsi 125 G",
-  "brand": "Ruffles",
-  "s": "ketçap aromalı patates cipsi",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/cips/8690624105728.png",
-  "prices": {
-   "A101": 64.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Ruffles%20Ket%C3%A7ap%20Aromal%C4%B1%20Patates%20Cipsi%20125%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/ruffles-ketcap-aromali-patates-cipsi-125-g"
  },
  {
   "id": "13020",
@@ -41287,7 +41355,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/genel-temizlik/8690530072305.png",
   "prices": {
-   "A101": 84
+   "A101": 79
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Solo%20Yaseminli%20Y%C3%BCzey%20Temizleme%20Havlusu%20100'l%C3%BC%22"
@@ -41661,7 +41729,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/su/8680771460047.png",
   "prices": {
-   "A101": 36
+   "A101": 29.5
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Su%205%20L%22"
@@ -43310,7 +43378,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/temel-gida/tat-acili-ketcap-390-g.jpg",
   "prices": {
-   "Migros": 103.95
+   "Migros": 101.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Tat%20Ac%C4%B1l%C4%B1%20Ket%C3%A7ap%20390%20G%22"
@@ -43616,7 +43684,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/temel-gida/tat-ketcap-tatli-390-g.jpg",
   "prices": {
-   "Migros": 103.95
+   "Migros": 101.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Tat%20Ket%C3%A7ap%20Tatl%C4%B1%20390%20G%22"
@@ -44517,7 +44585,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/ayran-kefir/8680181000512.png",
   "prices": {
-   "A101": 59
+   "A101": 45
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Torku%20Ayran%201%20L%22"
@@ -45290,6 +45358,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/torku-sade-kefir-1-l"
  },
  {
+  "id": "9076",
+  "name": "Torku Summer Ahududulu Limonlu Gofret 32 G",
+  "brand": "Torku",
+  "s": "summer ahududulu limonlu gofret",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/gofret/8690120153223.png",
+  "prices": {
+   "A101": 7.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Torku%20Summer%20Ahududulu%20Limonlu%20Gofret%2032%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/torku-summer-ahududulu-limonlu-gofret-32-g"
+ },
+ {
   "id": "9072",
   "name": "Torku Summer Fındıklı Gofret 32 G",
   "brand": "Torku",
@@ -45588,10 +45673,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/sut/8680181000048.png",
   "prices": {
-   "A101": 65
+   "Migros": 65
   },
   "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Torku%20Yar%C4%B1m%20Ya%C4%9Fl%C4%B1%20S%C3%BCt%201%20L%22"
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Torku%20Yar%C4%B1m%20Ya%C4%9Fl%C4%B1%20S%C3%BCt%201%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/torku-yarim-yagli-sut-1-l"
  },
@@ -46642,7 +46727,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/kek/8690504065623.png",
   "prices": {
-   "A101": 11.5
+   "A101": 13
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%9Clker%208%20Kek%20%C3%87ikolatal%C4%B1%20Ve%20%C3%87ilekli%20Kek%2055%20G%22"
@@ -46659,7 +46744,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/kek/8690504063223.png",
   "prices": {
-   "A101": 11.5
+   "A101": 13
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%9Clker%208%20Kek%20%C3%87ikolatal%C4%B1%20ve%20Muzlu%20Kek%2055%20G%22"
@@ -46682,23 +46767,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%9Clker%209%20Kat%20Muz%20Kremal%C4%B1%20Gofret%20114%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/ulker-9-kat-muz-kremali-gofret-114-g"
- },
- {
-  "id": "9182",
-  "name": "Ülker 9 Kat Portakal Kremalı Gofret 114 G",
-  "brand": "Ülker",
-  "s": "9 kat portakal kremalı gofret",
-  "category": "Atıştırmalık",
-  "icon": "🍫",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/gofret/8690504085355.png",
-  "prices": {
-   "A101": 25
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%9Clker%209%20Kat%20Portakal%20Kremal%C4%B1%20Gofret%20114%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/ulker-9-kat-portakal-kremali-gofret-114-g"
  },
  {
   "id": "9100",
@@ -47543,7 +47611,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/biskuvi-kraker/8690504108771.png",
   "prices": {
-   "A101": 15
+   "A101": 17
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%9Clker%20Krispi%20Baharatl%C4%B1%20T%C4%B1rt%C4%B1kl%C4%B1%20Kraker%2048%20G%22"
@@ -48580,7 +48648,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/sivi-yaglar/8699118009085.png",
   "prices": {
-   "A101": 469
+   "A101": 429
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Vera%20Ay%C3%A7i%C3%A7ek%20Ya%C4%9F%C4%B1%205%20L%22"
@@ -50815,23 +50883,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/yoremce-kocbasi-nohut-1-kg"
  },
  {
-  "id": "125202",
-  "name": "Yöremce Koçbaşı Nohut 1000 G",
-  "brand": "Yöremce",
-  "s": "koçbaşı nohut",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/161fcca3-4d51-4b1b-82d7-393db9348528.jpeg",
-  "prices": {
-   "A101": 57.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Y%C3%B6remce%20Ko%C3%A7ba%C5%9F%C4%B1%20Nohut%201000%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/yoremce-kocbasi-nohut-1000-g"
- },
- {
   "id": "12547",
   "name": "Yöremce Köftelik Bulgur 1000 G",
   "brand": "Yöremce",
@@ -50943,7 +50994,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/ayran-kefir/8684000453428.png",
   "prices": {
-   "A101": 69.5
+   "A101": 49.5
   },
   "links": {
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Y%C3%B6rsan%20Susurluk%20Ayran%201%20L%22"
@@ -51720,8 +51771,8 @@ export const PRODUCTS = [
   "name": "Zeo Baharatlı Yeşil Zeytin XS-2XS 400 G",
   "brand": "Zeo",
   "s": "baharatlı yeşil zeytin",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
+  "category": "Temel Gıda",
+  "icon": "🌾",
   "weight": "",
   "image": "https://uyguno.com/uploads/products/zeytin/8699118037422.png",
   "prices": {
@@ -51765,6 +51816,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Zeo%20%C3%87izik%20Ye%C5%9Fil%20Zeytin%20S%20400%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/zeo-cizik-yesil-zeytin-s-400-g"
+ },
+ {
+  "id": "6790",
+  "name": "Zeo Kırma Yeşil Zeytin 4XL 400 G",
+  "brand": "Zeo",
+  "s": "kırma yeşil zeytin",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/zeytin/8699118034643.png",
+  "prices": {
+   "A101": 80
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Zeo%20K%C4%B1rma%20Ye%C5%9Fil%20Zeytin%204XL%20400%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/zeo-kirma-yesil-zeytin-4xl-400-g"
  },
  {
   "id": "12413",
