@@ -1,4 +1,4 @@
-// uyguno.com canlı verisi (2026-08-21T08:19:19.192Z)
+// uyguno.com canlı verisi (2026-08-22T11:21:36.404Z)
 // Bu dosya scripts/refresh.js tarafından üretilir — elle düzenleme.
 export const PRODUCTS = [
  {
@@ -912,9 +912,11 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/tekli-urunler/8683130125809.png",
   "prices": {
+   "A101": 75,
    "Migros": 75
   },
   "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Algida%20Cornetto%20Disc%20Double%20Antep%20F%C4%B1st%C4%B1%C4%9F%C4%B1%20130%20ml%22",
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Algida%20Cornetto%20Disc%20Double%20Antep%20F%C4%B1st%C4%B1%C4%9F%C4%B1%20130%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/algida-cornetto-disc-double-antep-fistigi-130-ml"
@@ -2416,23 +2418,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/asperox-sparx-diamond-bulasik-makinesi-kapsul-30-lu-351-g"
  },
  {
-  "id": "50051",
-  "name": "Asperox Sparx Parlatıcı Kurutucu 750 ml",
-  "brand": "Asperox",
-  "s": "sparx parlatıcı kurutucu",
-  "category": "Temizlik",
-  "icon": "🧴",
-  "weight": "",
-  "image": "https://camgoz.net/image/c100c3ea-4074-4f7f-8b85-18fb626c4775.jpeg",
-  "prices": {
-   "Migros": 269.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Asperox%20Sparx%20Parlat%C4%B1c%C4%B1%20Kurutucu%20750%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/asperox-sparx-parlatici-kurutucu-750-ml"
- },
- {
   "id": "17324",
   "name": "Asperox Temizliğin Kokusu Yüzey Temizleyici 2,5 L",
   "brand": "Asperox",
@@ -2671,6 +2656,57 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/avoya-elma-tarcin-karanfil-maden-suyu-6x200-ml"
  },
  {
+  "id": "67868",
+  "name": "Axe Aqua Bergamot Duş Jeli 300 ml",
+  "brand": "Axe",
+  "s": "aqua bergamot duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": null,
+  "prices": {
+   "Migros": 165.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Axe%20Aqua%20Bergamot%20Du%C5%9F%20Jeli%20300%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/axe-aqua-bergamot-dus-jeli-300-ml"
+ },
+ {
+  "id": "51993",
+  "name": "Axe Black Vanilla Duş Jeli 300 ml",
+  "brand": "Axe",
+  "s": "black vanilla duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/b12daca8-fdff-41ca-b19a-f16b17ccd8ad.jpeg",
+  "prices": {
+   "Migros": 165.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Axe%20Black%20Vanilla%20Du%C5%9F%20Jeli%20300%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/axe-black-vanilla-dus-jeli-300-ml"
+ },
+ {
+  "id": "97895",
+  "name": "Axe Cherry Spritz Duş Jeli 300 ml",
+  "brand": "Axe",
+  "s": "cherry spritz duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": null,
+  "prices": {
+   "Migros": 165.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Axe%20Cherry%20Spritz%20Du%C5%9F%20Jeli%20300%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/axe-cherry-spritz-dus-jeli-300-ml"
+ },
+ {
   "id": "18189",
   "name": "Axe Duş Jeli 250 ml",
   "brand": "Axe",
@@ -2839,142 +2875,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Ba%C4%9Fc%C4%B1%20Salamura%20Siyah%20Zeytin%20S-XS%20250%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/bagci-salamura-siyah-zeytin-s-xs-250-g"
- },
- {
-  "id": "54356",
-  "name": "Bağdat Ekstra Acı Pul Biber 80 G",
-  "brand": "Bağdat",
-  "s": "ekstra acı pul biber",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/036e2028-6cb8-4ecb-932a-c5bacf4d8706.jpeg",
-  "prices": {
-   "Migros": 84.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20Ekstra%20Ac%C4%B1%20Pul%20Biber%2080%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-ekstra-aci-pul-biber-80-g"
- },
- {
-  "id": "54152",
-  "name": "Bağdat İsot Biber 80 G",
-  "brand": "Bağdat",
-  "s": "isot biber",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/de7ce419-f16a-43c4-b56f-15cc98f4c21d.jpeg",
-  "prices": {
-   "Migros": 78.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20%C4%B0sot%20Biber%2080%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-isot-biber-80-g"
- },
- {
-  "id": "124277",
-  "name": "Bağdat Kolay Etsiz Çiğ Köfte 120 G",
-  "brand": "Bağdat",
-  "s": "kolay etsiz çiğ köfte",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/29411372-d260-41b3-a2b7-f94d4feba5cd.jpeg",
-  "prices": {
-   "Migros": 49.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20Kolay%20Etsiz%20%C3%87i%C4%9F%20K%C3%B6fte%20120%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-kolay-etsiz-cig-kofte-120-g"
- },
- {
-  "id": "124901",
-  "name": "Bağdat Köfte Baharı 65 G",
-  "brand": "Bağdat",
-  "s": "köfte baharı",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/093e8f46-3609-498b-8e79-550597621104.jpeg",
-  "prices": {
-   "Migros": 64.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20K%C3%B6fte%20Bahar%C4%B1%2065%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-kofte-bahari-65-g"
- },
- {
-  "id": "54343",
-  "name": "Bağdat Köfte Harcı 90 G",
-  "brand": "Bağdat",
-  "s": "köfte harcı",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/6649f845-244c-4789-bb1f-980c4db51eed.jpeg",
-  "prices": {
-   "Migros": 54.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20K%C3%B6fte%20Harc%C4%B1%2090%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-kofte-harci-90-g"
- },
- {
-  "id": "54445",
-  "name": "Bağdat Pul Biber 210 G",
-  "brand": "Bağdat",
-  "s": "pul biber",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/75b197ce-56a3-4dbe-910b-23df8f88fd36.jpeg",
-  "prices": {
-   "Migros": 169.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20Pul%20Biber%20210%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-pul-biber-210-g"
- },
- {
-  "id": "54146",
-  "name": "Bağdat Pul Biber 80 G",
-  "brand": "Bağdat",
-  "s": "pul biber",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/dba97694-0596-4e52-81c1-7e4d9a6b76c2.jpeg",
-  "prices": {
-   "Migros": 79.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20Pul%20Biber%2080%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-pul-biber-80-g"
- },
- {
-  "id": "54185",
-  "name": "Bağdat Toz Acı Biber 75 G",
-  "brand": "Bağdat",
-  "s": "toz acı biber",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/c08b9032-fcba-41a8-a58d-4184ba04a474.jpeg",
-  "prices": {
-   "Migros": 79.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ba%C4%9Fdat%20Toz%20Ac%C4%B1%20Biber%2075%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/bagdat-toz-aci-biber-75-g"
  },
  {
   "id": "16514",
@@ -3275,7 +3175,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/915cbfa2-7d0a-4aa0-b90d-29b5596ecead.jpeg",
   "prices": {
-   "Migros": 349.95
+   "Migros": 199.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Balmy%20Naturel%20Blueberry%20Gummy%20Du%C5%9F%20Jeli%20450%20ml%22"
@@ -3292,7 +3192,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/8c9f33d0-23d3-4df7-817a-8d5794feeaa8.jpeg",
   "prices": {
-   "Migros": 349.95
+   "Migros": 199.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Balmy%20Naturel%20Mandalina%20Raspberry%20Du%C5%9F%20Jeli%20450%20ml%22"
@@ -4048,6 +3948,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/bentota-seylan-demlik-poset-cay-48-li"
  },
  {
+  "id": "70057",
+  "name": "Bepanthol Sensidaily Vücut Kremi 200Ml",
+  "brand": "Bepanthol",
+  "s": "sensidaily vücut kremi",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/33f5dda1-8259-462b-b850-15a9cb0a9199.jpeg",
+  "prices": {
+   "Migros": 999.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Bepanthol%20Sensidaily%20V%C3%BCcut%20Kremi%20200Ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/bepanthol-sensidaily-vucut-kremi-200ml"
+ },
+ {
   "id": "12828",
   "name": "Berona Burgu Makarna 500 G",
   "brand": "Berona",
@@ -4694,6 +4611,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/biomed-charcoal-dis-macunu-100-g"
  },
  {
+  "id": "98329",
+  "name": "Bıomed Gum Health Diş Macunu 100 G",
+  "brand": "",
+  "s": "bıomed gum health diş macunu",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://camgoz.net/image/efe910c9-549c-42ec-96d3-c487c5504fae.jpeg",
+  "prices": {
+   "Migros": 249.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22B%C4%B1omed%20Gum%20Health%20Di%C5%9F%20Macunu%20100%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/biomed-gum-health-dis-macunu-100-g"
+ },
+ {
   "id": "14691",
   "name": "Bi Buzlu Çay Frambuaz Böğürtlen 330 ml",
   "brand": "",
@@ -5117,57 +5051,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Billur%20%C4%B0yotlu%20Tuz%20750%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/billur-i-yotlu-tuz-750-g"
- },
- {
-  "id": "49846",
-  "name": "Billur Sofrada Öğütme Deniz Tuzu 500 G",
-  "brand": "",
-  "s": "billur sofrada öğütme deniz tuzu",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://camgoz.net/image/0c73e409-0c28-48d3-a85d-7f6624cba7f7.jpg",
-  "prices": {
-   "Migros": 56.21
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Billur%20Sofrada%20%C3%96%C4%9F%C3%BCtme%20Deniz%20Tuzu%20500%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/billur-sofrada-ogutme-deniz-tuzu-500-g"
- },
- {
-  "id": "49586",
-  "name": "Billur Tuz Rafine İyotlu Sofra Tuzu 1,5 kg",
-  "brand": "Billur Tuz",
-  "s": "rafine iyotlu sofra tuzu",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/5d2cc175-b2d5-478c-9e6e-0f1a4632e398.jpeg",
-  "prices": {
-   "Migros": 56.21
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Billur%20Tuz%20Rafine%20%C4%B0yotlu%20Sofra%20Tuzu%201%2C5%20kg%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/billur-tuz-rafine-iyotlu-sofra-tuzu-1-5-kg"
- },
- {
-  "id": "49079",
-  "name": "Billur Tuz Salamura Tuzu 3 kg",
-  "brand": "Billur Tuz",
-  "s": "salamura tuzu",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/31ed7a96-6698-4fe2-8cb2-64382f250f20.jpeg",
-  "prices": {
-   "Migros": 59.96
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Billur%20Tuz%20Salamura%20Tuzu%203%20kg%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/billur-tuz-salamura-tuzu-3-kg"
  },
  {
   "id": "13155",
@@ -5655,7 +5538,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/35785ba6-2964-41c6-a10e-985d1392a99e.jpeg",
   "prices": {
-   "Migros": 209.95
+   "Migros": 129.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Bioblas%20Antistress%20%C5%9Eampuan%C4%B1%20360%20ml%22"
@@ -5882,23 +5765,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Bir%C5%9Fah%20Milkino%20%C3%87ilekli%20S%C3%BCt%206x200%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/birsah-milkino-cilekli-sut-6x200-ml"
- },
- {
-  "id": "4332",
-  "name": "Birşah Milkino Kakaolu Süt 200 ml",
-  "brand": "Birşah",
-  "s": "milkino kakaolu süt",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sut/8699118016595.png",
-  "prices": {
-   "A101": 15.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Bir%C5%9Fah%20Milkino%20Kakaolu%20S%C3%BCt%20200%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/birsah-milkino-kakaolu-sut-200-ml"
  },
  {
   "id": "138208",
@@ -6360,6 +6226,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/black-eagle-enerji-i-cecegi-1-l"
  },
  {
+  "id": "80127",
+  "name": "Blendax Aloe Vera Özlü Şampuan 500 ml",
+  "brand": "Blendax",
+  "s": "aloe vera özlü şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/4c24b99a-8121-4f15-a8cc-baad6835e0d6.jpeg",
+  "prices": {
+   "Migros": 104.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Aloe%20Vera%20%C3%96zl%C3%BC%20%C5%9Eampuan%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/blendax-aloe-vera-ozlu-sampuan-500-ml"
+ },
+ {
   "id": "51280",
   "name": "Blendax Erkek Kepeğe Karşı Etkili Şampuan 500 ml",
   "brand": "Blendax",
@@ -6369,12 +6252,46 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/2a627e0a-48ad-4d92-92c5-fb9164c1ec02.jpeg",
   "prices": {
-   "Migros": 174.95
+   "Migros": 104.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Erkek%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/blendax-erkek-kepege-karsi-etkili-sampuan-500-ml"
+ },
+ {
+  "id": "18010",
+  "name": "Blendax Isırgan Özlü Şampuan 500 ml",
+  "brand": "Blendax",
+  "s": "ısırgan özlü şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8690572798157.png",
+  "prices": {
+   "Migros": 104.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Is%C4%B1rgan%20%C3%96zl%C3%BC%20%C5%9Eampuan%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/blendax-isirgan-ozlu-sampuan-500-ml"
+ },
+ {
+  "id": "36570",
+  "name": "Blendax Kiraz Çiçeği Özlü Şampuan 500 ml",
+  "brand": "Blendax",
+  "s": "kiraz çiçeği özlü şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/a293971b-a6f0-4f20-ab08-3a34eb4c87dd.jpeg",
+  "prices": {
+   "Migros": 104.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Kiraz%20%C3%87i%C3%A7e%C4%9Fi%20%C3%96zl%C3%BC%20%C5%9Eampuan%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/blendax-kiraz-cicegi-ozlu-sampuan-500-ml"
  },
  {
   "id": "18026",
@@ -6392,6 +6309,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Blendax%20Mentoll%C3%BC%20%C5%9Eampuan%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/blendax-mentollu-sampuan-500-ml"
+ },
+ {
+  "id": "18009",
+  "name": "Blendax Yasemin Özlü Şampuan 500 ml",
+  "brand": "Blendax",
+  "s": "yasemin özlü şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8690572798270.png",
+  "prices": {
+   "Migros": 104.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Blendax%20Yasemin%20%C3%96zl%C3%BC%20%C5%9Eampuan%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/blendax-yasemin-ozlu-sampuan-500-ml"
  },
  {
   "id": "7040",
@@ -7584,23 +7518,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/cafex-kahveli-sutlu-i-cecek-vanilya-250-ml"
  },
  {
-  "id": "15631",
-  "name": "Cafex Mocha Soğuk Kahve 250 ml",
-  "brand": "Cafex",
-  "s": "mocha soğuk kahve",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/kahve/8699118033981.png",
-  "prices": {
-   "A101": 39.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Cafex%20Mocha%20So%C4%9Fuk%20Kahve%20250%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/cafex-mocha-soguk-kahve-250-ml"
- },
- {
   "id": "15630",
   "name": "Cafex Soğuk Kahve Latte 250 ml",
   "brand": "Cafex",
@@ -8092,23 +8009,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Celenes%20Thermal%20Ar%C4%B1nd%C4%B1r%C4%B1c%C4%B1%20%26%20Canland%C4%B1r%C4%B1c%C4%B1%20Tonik%20200%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/celenes-thermal-arindirici-canlandirici-tonik-200-ml"
- },
- {
-  "id": "18479",
-  "name": "Celenes Thermal Yüz Yıkama Jeli 250 ml",
-  "brand": "Celenes",
-  "s": "thermal yüz yıkama jeli",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/cilt-bakimi/7350104248093.png",
-  "prices": {
-   "A101": 199
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Celenes%20Thermal%20Y%C3%BCz%20Y%C4%B1kama%20Jeli%20250%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/celenes-thermal-yuz-yikama-jeli-250-ml"
  },
  {
   "id": "6861",
@@ -8919,7 +8819,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/a66f03ea-f7f2-43ba-bb1b-f6048f84eefe.jpeg",
   "prices": {
-   "Migros": 254.95
+   "Migros": 149.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Clear%20Men%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20Maksimum%20Ferahl%C4%B1k%20Ya%C4%9Fl%C4%B1%20Sa%C3%A7%20Derisi%20i%C3%A7in%20Limon%20%C3%96zl%C3%BC%20350%20ml%22"
@@ -8944,21 +8844,21 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/clear-men-sac-dokulmesine-karsi-etkili-sampuan-350-ml"
  },
  {
-  "id": "18008",
-  "name": "Clear Vini Jr. Şampuan 350 ml",
+  "id": "104263",
+  "name": "Clear Men Scalp Pro Saç Dökülmesine Karşı Güçlendirici Şampuan 300 ml",
   "brand": "Clear",
-  "s": "vini jr şampuan",
+  "s": "men scalp pro saç dökülmesine karşı güçlendirici şampuan",
   "category": "Kişisel Bakım",
   "icon": "🧼",
   "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8683130089743.png",
+  "image": "https://file.camgoz.net/4d099302-937a-479d-adf4-34c1618f0f86.jpeg",
   "prices": {
-   "A101": 119
+   "Migros": 229.95
   },
   "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Clear%20Vini%20Jr.%20%C5%9Eampuan%20350%20ml%22"
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Clear%20Men%20Scalp%20Pro%20Sa%C3%A7%20D%C3%B6k%C3%BClmesine%20Kar%C5%9F%C4%B1%20G%C3%BC%C3%A7lendirici%20%C5%9Eampuan%20300%20ml%22"
   },
-  "uygunoUrl": "https://uyguno.com/urun/clear-vini-jr-sampuan-350-ml"
+  "uygunoUrl": "https://uyguno.com/urun/clear-men-scalp-pro-sac-dokulmesine-karsi-guclendirici-sampuan-300-ml"
  },
  {
   "id": "34355",
@@ -8970,10 +8870,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/f5b6496b-371d-4e68-8746-ba589e2fa5df.jpeg",
   "prices": {
-   "A101": 199
+   "Migros": 149.95
   },
   "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Clear%20Women%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20Sa%C3%A7%20D%C3%B6k%C3%BClmesine%20Kar%C5%9F%C4%B1%20Zencefil%20%C3%96z%C3%BC%20350%20ml%22"
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Clear%20Women%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20Sa%C3%A7%20D%C3%B6k%C3%BClmesine%20Kar%C5%9F%C4%B1%20Zencefil%20%C3%96z%C3%BC%20350%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/clear-women-kepege-karsi-etkili-sampuan-sac-dokulmesine-karsi-zencefil-ozu-350-ml"
  },
@@ -9497,7 +9397,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": null,
   "prices": {
-   "Migros": 159.95
+   "Migros": 129.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Cook%20Eko%20Buzdolab%C4%B1%20Po%C5%9Feti%20Orta%20Boy%20120'li%22"
@@ -9582,7 +9482,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/6e25b433-0e49-4c7b-bf47-d3d8cae2521f.jpeg",
   "prices": {
-   "Migros": 109.95
+   "Migros": 69.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Cook%20Kilitli%20Buzdolab%C4%B1%20Po%C5%9Feti%2010%20Adet%22"
@@ -9599,7 +9499,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/e759d061-aef2-4eab-8058-2f94047eba73.jpeg",
   "prices": {
-   "Migros": 59.95
+   "Migros": 39.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Cook%20Orta%20Boy%20Buzdolab%C4%B1%20Po%C5%9Feti%2030'lu%22"
@@ -10642,6 +10542,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87erezya%20Tuzlu%20F%C4%B1nd%C4%B1k%20Kuruyemi%C5%9F%20150%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/cerezya-tuzlu-findik-kuruyemis-150-g"
+ },
+ {
+  "id": "10144",
+  "name": "Çerezya Tuzlu Karışık 200 G",
+  "brand": "Çerezya",
+  "s": "tuzlu karışık",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/kuruyemis-kuru-meyve/8699118029168.png",
+  "prices": {
+   "A101": 83.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22%C3%87erezya%20Tuzlu%20Kar%C4%B1%C5%9F%C4%B1k%20200%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/cerezya-tuzlu-karisik-200-g"
  },
  {
   "id": "10162",
@@ -12106,6 +12023,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/dalan-d-olive-aloe-vera-el-kremi-60-ml"
  },
  {
+  "id": "90620",
+  "name": "Dalan D'olive Avokado El Kremi 60 ml",
+  "brand": "Dalan",
+  "s": "d olive avokado el kremi",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://camgoz.net/image/4afc2fd7-314e-4ad6-86fd-4085319cf52e.jpeg",
+  "prices": {
+   "Migros": 104.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalan%20D'olive%20Avokado%20El%20Kremi%2060%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dalan-d-olive-avokado-el-kremi-60-ml"
+ },
+ {
   "id": "134408",
   "name": "Dalan D'olive Besleyici Sıvı Sabun 1.5L",
   "brand": "Dalan",
@@ -12166,7 +12100,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/f6a11e78-7240-4ee9-aa7e-21a07e8cdfec.jpeg",
   "prices": {
-   "Migros": 84.95
+   "Migros": 49.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalan%20G%C3%BC%C3%A7l%C3%BC%20ve%20Parlak%20%C5%9Eampuan%20450%20ml%22"
@@ -12183,7 +12117,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/7684779f-f76a-43d2-a09f-7cf401b02c44.jpeg",
   "prices": {
-   "Migros": 84.95
+   "Migros": 49.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalan%20Onar%C4%B1c%C4%B1%20Bak%C4%B1m%20%C5%9Eampuan%20450%20ml%22"
@@ -12208,23 +12142,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/dalan-zeytinyagli-vucut-losyonu-400-ml"
  },
  {
-  "id": "54362",
-  "name": "Dalin Bahar Tazeliği Bebek Kolonyası 150 ml",
-  "brand": "Dalin",
-  "s": "bahar tazeliği bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/851960f8-152b-4c76-9eae-8d721aabee22.jpeg",
-  "prices": {
-   "Migros": 122.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20Bahar%20Tazeli%C4%9Fi%20Bebek%20Kolonyas%C4%B1%20150%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dalin-bahar-tazeligi-bebek-kolonyasi-150-ml"
- },
- {
   "id": "53294",
   "name": "Dalin Bebek Yağı Nem ve Koruma Avokado Özü 300 ml",
   "brand": "Dalin",
@@ -12240,40 +12157,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20Bebek%20Ya%C4%9F%C4%B1%20Nem%20ve%20Koruma%20Avokado%20%C3%96z%C3%BC%20300%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dalin-bebek-yagi-nem-ve-koruma-avokado-ozu-300-ml"
- },
- {
-  "id": "52772",
-  "name": "Dalin Bıcı Bıcı Bebek Kolonyası 150 ml",
-  "brand": "Dalin",
-  "s": "bıcı bıcı bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/8d704f5d-1016-477f-bf7e-4b551bfdb4ec.jpeg",
-  "prices": {
-   "Migros": 122.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20B%C4%B1c%C4%B1%20B%C4%B1c%C4%B1%20Bebek%20Kolonyas%C4%B1%20150%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dalin-bici-bici-bebek-kolonyasi-150-ml"
- },
- {
-  "id": "52133",
-  "name": "Dalin Deniz Esintisi Bebek Kolonyası 150 ml",
-  "brand": "Dalin",
-  "s": "deniz esintisi bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/85c3f06d-66d1-4683-9ad3-c1e54198af37.jpeg",
-  "prices": {
-   "Migros": 122.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20Deniz%20Esintisi%20Bebek%20Kolonyas%C4%B1%20150%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dalin-deniz-esintisi-bebek-kolonyasi-150-ml"
  },
  {
   "id": "53761",
@@ -12325,23 +12208,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20Kolay%20Tarama%20Bebek%20%C5%9Eampuan%C4%B1%20700%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dalin-kolay-tarama-bebek-sampuani-700-ml"
- },
- {
-  "id": "52814",
-  "name": "Dalin Orman Esintisi Bebek Kolonyası 150 ml",
-  "brand": "Dalin",
-  "s": "orman esintisi bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/db69f02b-48fa-4ebe-8d8e-c47a93107c4a.jpeg",
-  "prices": {
-   "Migros": 122.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dalin%20Orman%20Esintisi%20Bebek%20Kolonyas%C4%B1%20150%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dalin-orman-esintisi-bebek-kolonyasi-150-ml"
  },
  {
   "id": "53849",
@@ -12563,23 +12429,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Danone%20Bitkisel%20Ya%C4%9Fl%C4%B1%20Krema%20200%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/danone-bitkisel-yagli-krema-200-ml"
- },
- {
-  "id": "144093",
-  "name": "Danone Çilekli Süt 180 ml",
-  "brand": "Danone",
-  "s": "çilekli süt",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://file.camgoz.net/e6625bbc-cb3e-419f-bf33-b4c93600cd24.jpeg",
-  "prices": {
-   "A101": 21
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Danone%20%C3%87ilekli%20S%C3%BCt%20180%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/danone-cilekli-sut-180-ml"
  },
  {
   "id": "4973",
@@ -13022,40 +12871,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Dermokil%20Tea%20Tree%20Y%C3%BCz%20Temizleme%20Jeli%20300%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dermokil-tea-tree-yuz-temizleme-jeli-300-ml"
- },
- {
-  "id": "106653",
-  "name": "Deva İsot Biber 65 G",
-  "brand": "Deva",
-  "s": "isot biber",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://camgoz.net/image/fc3efb3a-aa5b-466b-a3df-388e97a21f92.jpeg",
-  "prices": {
-   "Migros": 41.21
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Deva%20%C4%B0sot%20Biber%2065%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/deva-isot-biber-65-g"
- },
- {
-  "id": "106704",
-  "name": "Deva Kırmızı Toz Tatlı Biber 65 G",
-  "brand": "Deva",
-  "s": "kırmızı toz tatlı biber",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://camgoz.net/image/4bf35884-3602-46d3-8ad7-6a2428868ad3.jpeg",
-  "prices": {
-   "Migros": 44.96
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Deva%20K%C4%B1rm%C4%B1z%C4%B1%20Toz%20Tatl%C4%B1%20Biber%2065%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/deva-kirmizi-toz-tatli-biber-65-g"
  },
  {
   "id": "36682",
@@ -13634,6 +13449,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Diyar%20Baharat%20Tatl%C4%B1%20Toz%20Biber%20100%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/diyar-baharat-tatli-toz-biber-100-g"
+ },
+ {
+  "id": "13156",
+  "name": "Diyar Değirmen Kapak Tane Karabiber 58 G",
+  "brand": "Değirmen",
+  "s": "diyar değirmen kapak tane karabiber",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/tuz-baharat-harc/8697497999157.png",
+  "prices": {
+   "A101": 64.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Diyar%20De%C4%9Firmen%20Kapak%20Tane%20Karabiber%2058%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/diyar-degirmen-kapak-tane-karabiber-58-g"
  },
  {
   "id": "17283",
@@ -14367,6 +14199,57 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/doruk-bugday-unu-5-kg"
  },
  {
+  "id": "53016",
+  "name": "Dove Avokado Duş Jeli 450 ml",
+  "brand": "Dove",
+  "s": "avokado duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/8c86aac1-7a89-4969-a71e-cd51a5b514ae.jpeg",
+  "prices": {
+   "Migros": 289.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dove%20Avokado%20Du%C5%9F%20Jeli%20450%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dove-avokado-dus-jeli-450-ml"
+ },
+ {
+  "id": "81911",
+  "name": "Dove Deeply Nourishing Duş Jeli 450 ml",
+  "brand": "Dove",
+  "s": "deeply nourishing duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/b486ec93-026e-42fe-a54c-01c6a062ffe2.jpeg",
+  "prices": {
+   "Migros": 289.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dove%20Deeply%20Nourishing%20Du%C5%9F%20Jeli%20450%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dove-deeply-nourishing-dus-jeli-450-ml"
+ },
+ {
+  "id": "52092",
+  "name": "Dove Hindistan Cevizi Yağlı Duş Jeli 450 ml",
+  "brand": "Dove",
+  "s": "hindistan cevizi yağlı duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/d34b1201-8995-49c0-bd48-94b7779d1af5.jpeg",
+  "prices": {
+   "Migros": 289.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Dove%20Hindistan%20Cevizi%20Ya%C4%9Fl%C4%B1%20Du%C5%9F%20Jeli%20450%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/dove-hindistan-cevizi-yagli-dus-jeli-450-ml"
+ },
+ {
   "id": "52226",
   "name": "Dove Mango & Badem Duş Jeli 450 ml",
   "brand": "Dove",
@@ -14433,23 +14316,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Dove%20Sugar%20Cookie%20Du%C5%9F%20Jeli%20450%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/dove-sugar-cookie-dus-jeli-450-ml"
- },
- {
-  "id": "18198",
-  "name": "Dove Sugar Cookie Duş Köpüğü 200 ml",
-  "brand": "Dove",
-  "s": "sugar cookie duş köpüğü",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/dus-banyo-sabun/8683130110195.png",
-  "prices": {
-   "A101": 169
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Dove%20Sugar%20Cookie%20Du%C5%9F%20K%C3%B6p%C3%BC%C4%9F%C3%BC%20200%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/dove-sugar-cookie-dus-kopugu-200-ml"
  },
  {
   "id": "3651",
@@ -16042,7 +15908,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/892a61d6-8875-407d-bcee-f7b76b7e4024.jpeg",
   "prices": {
-   "Migros": 220.95
+   "Migros": 134.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elidor%20Hindistan%20Cevizi%20Ya%C4%9F%C4%B1%20%C5%9Eampuan%20400%20ml%22"
@@ -16059,7 +15925,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/c3e20eae-3a11-4971-b990-a5e5a52b9b7d.jpeg",
   "prices": {
-   "Migros": 249.95
+   "Migros": 149.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elidor%20Sa%C3%A7%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20Brezilya%20Keratin%20Terapisi%20400%20ml%22"
@@ -16203,23 +16069,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/elseve-arginine-sampuan-285-ml"
  },
  {
-  "id": "17987",
-  "name": "Elseve Arginine Şampuan 450 ml",
-  "brand": "Elseve",
-  "s": "arginine şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/3600523992867.png",
-  "prices": {
-   "A101": 149
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Elseve%20Arginine%20%C5%9Eampuan%20450%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/elseve-arginine-sampuan-450-ml"
- },
- {
   "id": "17981",
   "name": "Elseve Color Vive Şampuan 285 ml",
   "brand": "Elseve",
@@ -16246,29 +16095,12 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/dce7eab1-326f-4261-a2dd-c262428d04a2.jpeg",
   "prices": {
-   "Migros": 234.95
+   "Migros": 144.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elseve%20Dream%20Long%20K%C4%B1r%C4%B1k%20U%C3%A7%20Onar%C4%B1c%C4%B1%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20300%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/elseve-dream-long-kirik-uc-onarici-bakim-sampuani-300-ml"
- },
- {
-  "id": "18035",
-  "name": "Elseve Dream Long Saç Bakım Yağı 100 ml",
-  "brand": "Elseve",
-  "s": "dream long saç bakım yağı",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8690595208756.png",
-  "prices": {
-   "A101": 119
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Elseve%20Dream%20Long%20Sa%C3%A7%20Bak%C4%B1m%20Ya%C4%9F%C4%B1%20100%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/elseve-dream-long-sac-bakim-yagi-100-ml"
  },
  {
   "id": "17980",
@@ -16297,7 +16129,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/d2adac3a-4700-4b0b-9ca4-01fca135c33c.jpeg",
   "prices": {
-   "Migros": 299.95
+   "Migros": 179.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elseve%20Glycolic%20Gloss%20Parlakl%C4%B1k%20Veren%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20300%20ml%22"
@@ -16331,7 +16163,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/36382277-7dc1-4dc5-8462-bec0cdcf48ba.jpeg",
   "prices": {
-   "Migros": 234.95
+   "Migros": 144.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elseve%20Komple%20Diren%C3%A7%20D%C3%B6k%C3%BClme%20Kar%C5%9F%C4%B1t%C4%B1%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20300%20ml%22"
@@ -16348,7 +16180,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/b8a452b8-dcd5-4437-a11a-a41cad237924.jpeg",
   "prices": {
-   "Migros": 234.95
+   "Migros": 144.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elseve%20Komple%20Onar%C4%B1c%C4%B1%205%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20300%20ml%22"
@@ -16365,7 +16197,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/faff68b8-5841-4d49-b08f-54a790e23350.jpeg",
   "prices": {
-   "Migros": 234.95
+   "Migros": 144.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Elseve%20Mucizevi%20Ya%C4%9F%20Besleyici%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20300%20ml%22"
@@ -16739,7 +16571,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/a430e314-7d7a-4e2e-99ca-7f0cf5267672.jpeg",
   "prices": {
-   "Migros": 19.9
+   "Migros": 24.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Bur%C3%A7ak%20Sultani%20%C3%9Cz%C3%BCml%C3%BC%20Kepekli%20Bisk%C3%BCvi%20123%20G%22"
@@ -17045,7 +16877,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/biskuvi-kraker/8690533771021.png",
   "prices": {
-   "Migros": 117.5
+   "Migros": 146.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Finger%20Bisk%C3%BCvi%20900%20G%22"
@@ -17291,23 +17123,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/eti-muz-kremali-biskuvi-61-g"
  },
  {
-  "id": "9739",
-  "name": "Eti Paykek Kakaolu 200 G",
-  "brand": "Eti",
-  "s": "paykek kakaolu",
-  "category": "Atıştırmalık",
-  "icon": "🍫",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/kek/8690533096308.png",
-  "prices": {
-   "A101": 49.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Eti%20Paykek%20Kakaolu%20200%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/eti-paykek-kakaolu-200-g"
- },
- {
   "id": "37972",
   "name": "Eti Petit Beurre Bisküvi 800 G",
   "brand": "Eti",
@@ -17410,23 +17225,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/eti-popkek-canga-51-g"
  },
  {
-  "id": "9724",
-  "name": "Eti Popkek Çikolatalı Kek 60 G",
-  "brand": "Eti",
-  "s": "popkek çikolatalı kek",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/kek/8690526083711.png",
-  "prices": {
-   "Migros": 11.9
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Popkek%20%C3%87ikolatal%C4%B1%20Kek%2060%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/eti-popkek-cikolatali-kek-60-g"
- },
- {
   "id": "9759",
   "name": "Eti Popkek Hindistan Cevizli Kek 60 G",
   "brand": "Eti",
@@ -17436,29 +17234,12 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/kek/8690526066233.png",
   "prices": {
-   "Migros": 11.9
+   "A101": 12
   },
   "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Popkek%20Hindistan%20Cevizli%20Kek%2060%20G%22"
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Eti%20Popkek%20Hindistan%20Cevizli%20Kek%2060%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/eti-popkek-hindistan-cevizli-kek-60-g"
- },
- {
-  "id": "9723",
-  "name": "Eti Popkek Muzlu Kek 60 G",
-  "brand": "Eti",
-  "s": "popkek muzlu kek",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/kek/8690526083728.png",
-  "prices": {
-   "Migros": 11.9
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Popkek%20Muzlu%20Kek%2060%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/eti-popkek-muzlu-kek-60-g"
  },
  {
   "id": "9761",
@@ -17487,10 +17268,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/kek/8690526073873.png",
   "prices": {
-   "Migros": 11.9
+   "A101": 12
   },
   "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Eti%20Popkek%20Vi%C5%9Fneli%20Kek%2060%20G%22"
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Eti%20Popkek%20Vi%C5%9Fneli%20Kek%2060%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/eti-popkek-visneli-kek-60-g"
  },
@@ -19229,6 +19010,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/freedo-vini-visne-cilek-1500-ml"
  },
  {
+  "id": "123801",
+  "name": "Frico Tam Yağlı Biberli Taze Füme Eritme Peynir 150G",
+  "brand": "Frico",
+  "s": "tam yağlı biberli taze füme eritme peynir",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
+  "weight": "",
+  "image": null,
+  "prices": {
+   "Migros": 389.9
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Frico%20Tam%20Ya%C4%9Fl%C4%B1%20Biberli%20Taze%20F%C3%BCme%20Eritme%20Peynir%20150G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/frico-tam-yagli-biberli-taze-fume-eritme-peynir-150g"
+ },
+ {
   "id": "99545",
   "name": "Friskies Tavuklu Yavru Köpek 2.4 kg",
   "brand": "Friskies",
@@ -19535,23 +19333,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/galle-elma-sirkesi-750-ml"
  },
  {
-  "id": "13284",
-  "name": "Galle Jalapeno Turşu 350 G",
-  "brand": "Galle",
-  "s": "jalapeno turşu",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/tursu/8699118029595.png",
-  "prices": {
-   "A101": 55
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Galle%20Jalapeno%20Tur%C5%9Fu%20350%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/galle-jalapeno-tursu-350-g"
- },
- {
   "id": "13290",
   "name": "Galle Karışık Turşu 3000 G",
   "brand": "Galle",
@@ -19697,7 +19478,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/018dd3e1-5547-4c56-94de-98069e60a233.jpeg",
   "prices": {
-   "Migros": 179.95
+   "Migros": 289.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Garnier%20Men%20Lekesiz%20Koruma%20Roll-on%20Deodorant%22"
@@ -19977,23 +19758,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/give-me-findik-kremali-cikolatali-gofret-40-g"
  },
  {
-  "id": "35654",
-  "name": "Gliss Aqua Revive Şampuan 400 ml",
-  "brand": "Gliss",
-  "s": "aqua revive şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/f68f52b2-927c-4f97-ae1f-aa017069e829.jpeg",
-  "prices": {
-   "Migros": 139.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Gliss%20Aqua%20Revive%20%C5%9Eampuan%20400%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/gliss-aqua-revive-sampuan-400-ml"
- },
- {
   "id": "18078",
   "name": "Gliss Full Hair Dökülme Karşıtı Şampuan 400 ml",
   "brand": "Gliss",
@@ -20060,23 +19824,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Gliss%20Oil%20Nutritive%20Besleyici%20%C5%9Eampuan%20400%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/gliss-oil-nutritive-besleyici-sampuan-400-ml"
- },
- {
-  "id": "36381",
-  "name": "Gliss Supreme Length Şampuan 400 ml",
-  "brand": "Gliss",
-  "s": "supreme length şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/a2700627-3bd0-4f66-9713-94f3a1ca83e8.jpeg",
-  "prices": {
-   "Migros": 139.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Gliss%20Supreme%20Length%20%C5%9Eampuan%20400%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/gliss-supreme-length-sampuan-400-ml"
  },
  {
   "id": "17991",
@@ -21592,6 +21339,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/himalaya-besleyici-el-ve-vucut-kremi-250-ml"
  },
  {
+  "id": "18483",
+  "name": "Himalaya Yüz Kremi 50 G",
+  "brand": "Himalaya",
+  "s": "yüz kremi",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/cilt-bakimi/8901138500467.png",
+  "prices": {
+   "A101": 99.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Himalaya%20Y%C3%BCz%20Kremi%2050%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/himalaya-yuz-kremi-50-g"
+ },
+ {
   "id": "95691",
   "name": "Hipp 1 Organik Combiotic Bebek Sütü 600 G",
   "brand": "Hipp",
@@ -22196,7 +21960,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/404f8520-04e8-4c67-a298-28f2c1014a66.jpeg",
   "prices": {
-   "Migros": 134.95
+   "Migros": 79.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ipek%20Men%20Formula%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20-%20D%C3%B6k%C3%BClmeye%20E%C4%9Filimli%20Sa%C3%A7lar%20480%20ml%22"
@@ -22213,7 +21977,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/5c5711e5-029f-4854-850c-65a553970012.jpeg",
   "prices": {
-   "Migros": 134.95
+   "Migros": 79.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Ipek%20Men%20Formula%20Kepe%C4%9Fe%20Kar%C5%9F%C4%B1%20Etkili%20%C5%9Eampuan%20-%20Normal%20Sa%C3%A7lar%20480%20ml%22"
@@ -22491,6 +22255,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22%C4%B0%C3%A7im%20Organik%20Yo%C4%9Furt%20750%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/i-cim-organik-yogurt-750-g"
+ },
+ {
+  "id": "1730",
+  "name": "İçim Orman Meyveli Kefir 1 L",
+  "brand": "İçim",
+  "s": "orman meyveli kefir",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/meyve-sebze/icim-orman-meyveli-kefir-1-l.jpg",
+  "prices": {
+   "Migros": 115
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22%C4%B0%C3%A7im%20Orman%20Meyveli%20Kefir%201%20L%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/i-cim-orman-meyveli-kefir-1-l"
  },
  {
   "id": "6681",
@@ -22893,7 +22674,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/8eec982f-bdbf-4d10-b48a-fcccde8a6fd4.jpeg",
   "prices": {
-   "Migros": 96.95
+   "Migros": 54.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22%C4%B0pek%20Normal%20Sa%C3%A7%202'si%201%20Arada%20Akasya%20%C5%9Eampuan%20480%20ml%22"
@@ -22927,7 +22708,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/232a94e1-b94d-4280-9c1a-7e61635efe94.jpeg",
   "prices": {
-   "Migros": 94.95
+   "Migros": 54.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22%C4%B0pek%20Normal%20Sa%C3%A7lar%20Orkide%20%C5%9Eampuan%20480%20ml%22"
@@ -23190,23 +22971,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/jet-tuzruhu-super-kokusuz-700-g"
  },
  {
-  "id": "92367",
-  "name": "Johnson's Baby Dream Kolonya 100 ml",
-  "brand": "Johnson's",
-  "s": "baby dream kolonya",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/64e3129a-70ac-498d-b560-6446ae16b286.jpeg",
-  "prices": {
-   "Migros": 89.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Johnson's%20Baby%20Dream%20Kolonya%20100%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/johnson-s-baby-dream-kolonya-100-ml"
- },
- {
   "id": "92055",
   "name": "Johnson’s Baby Şampuan 750 Ml + 200 Ml Avantaj Paketi",
   "brand": "Johnsons",
@@ -23290,23 +23054,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Johnsons%20I%C5%9F%C4%B1ldayan%20Parlakl%C4%B1k%20%C5%9Eampuan%20750%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/johnsons-isildayan-parlaklik-sampuan-750-ml"
- },
- {
-  "id": "91921",
-  "name": "Johson's Baby, Morning Dew Kolonya, 200ml - Normal",
-  "brand": "",
-  "s": "johson s baby morning dew kolonya 200ml normal",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/5d81638b-1f78-4b78-9958-479899f4290d.jpeg",
-  "prices": {
-   "Migros": 149.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Johson's%20Baby%2C%20Morning%20Dew%20Kolonya%2C%20200ml%20-%20Normal%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/johson-s-baby-morning-dew-kolonya-200ml-normal"
  },
  {
   "id": "10428",
@@ -24125,23 +23872,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/kekspir-fantastico-hindistan-cevizli-marshmallow-kek-40-g"
  },
  {
-  "id": "9717",
-  "name": "Kekspır Kakaolu Fındıklı Kek 45 G",
-  "brand": "Kekspır",
-  "s": "kakaolu fındıklı kek",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/kek/8699118066217.png",
-  "prices": {
-   "A101": 9.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Keksp%C4%B1r%20Kakaolu%20F%C4%B1nd%C4%B1kl%C4%B1%20Kek%2045%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/kekspir-kakaolu-findikli-kek-45-g"
- },
- {
   "id": "9742",
   "name": "Kekspır Kakaolu Kek 220 G",
   "brand": "Kekspır",
@@ -24174,6 +23904,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Keksp%C4%B1r%20Meyveli%20Kek%20220%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/kekspir-meyveli-kek-220-g"
+ },
+ {
+  "id": "9722",
+  "name": "Kekspır Meyveli Kek 45 G",
+  "brand": "Kekspır",
+  "s": "meyveli kek",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/kek/8699118021988.png",
+  "prices": {
+   "A101": 9.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Keksp%C4%B1r%20Meyveli%20Kek%2045%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/kekspir-meyveli-kek-45-g"
  },
  {
   "id": "9745",
@@ -25179,23 +24926,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/klorak-sprey-dusakabin-temizleyici-750-ml"
  },
  {
-  "id": "97312",
-  "name": "Knorr 5 Dakikada Etsiz Çiğ Köfte Seti 120 G",
-  "brand": "Knorr",
-  "s": "5 dakikada etsiz çiğ köfte seti",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/a70f02b1-d5fd-4c47-88f3-821a78b3d95b.jpeg",
-  "prices": {
-   "Migros": 86.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Knorr%205%20Dakikada%20Etsiz%20%C3%87i%C4%9F%20K%C3%B6fte%20Seti%20120%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/knorr-5-dakikada-etsiz-cig-kofte-seti-120-g"
- },
- {
   "id": "13253",
   "name": "Knorr Ezogelin Çorba 74 G",
   "brand": "Knorr",
@@ -25211,23 +24941,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Knorr%20Ezogelin%20%C3%87orba%2074%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/knorr-ezogelin-corba-74-g"
- },
- {
-  "id": "49652",
-  "name": "Knorr Hazır Çorba Tarhana Çorbası 74 G",
-  "brand": "Knorr",
-  "s": "hazır çorba tarhana çorbası",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://file.camgoz.net/e8e0f4d9-7ef2-4188-b38f-c19df263ca0d.jpeg",
-  "prices": {
-   "Migros": 39.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Knorr%20Haz%C4%B1r%20%C3%87orba%20Tarhana%20%C3%87orbas%C4%B1%2074%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/knorr-hazir-corba-tarhana-corbasi-74-g"
  },
  {
   "id": "13184",
@@ -25432,6 +25145,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Knorr%20Tavuk%20Suyu%20Bulyon%206%E2%80%99l%C4%B1%2060%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/knorr-tavuk-suyu-bulyon-6-li-60-g"
+ },
+ {
+  "id": "2938",
+  "name": "Kocaman Biber Soslu Marine Hamsi 200 G",
+  "brand": "Kocaman",
+  "s": "biber soslu marine hamsi",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/et-tavuk-balik/kocaman-biber-soslu-marine-hamsi-200-g.jpg",
+  "prices": {
+   "Migros": 239.9
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Kocaman%20Biber%20Soslu%20Marine%20Hamsi%20200%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/kocaman-biber-soslu-marine-hamsi-200-g"
  },
  {
   "id": "15633",
@@ -25715,7 +25445,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/a9bc651b-af38-4f55-b0c5-a1a1d0fa35d4.jpeg",
   "prices": {
-   "Migros": 119.95
+   "Migros": 169.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Koroplast%20B%C3%BCzg%C3%BCl%C3%BC%20%C3%87%C3%B6p%20Torbas%C4%B1%20Yasemin%20Kokulu%20B%C3%BCy%C3%BCk%20Boy%2010%E2%80%99lu%22"
@@ -25732,7 +25462,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/0c8a275c-b83e-45d4-90fd-c191cee5f82e.jpeg",
   "prices": {
-   "Migros": 119.95
+   "Migros": 169.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Koroplast%20B%C3%BCzg%C3%BCl%C3%BC%20%C3%87%C3%B6p%20Torbas%C4%B1%20Yasemin%20Kokulu%20Orta%20Boy%2015'Li%22"
@@ -25817,7 +25547,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/22e44a36-e392-4657-92e6-9b83fd6c4f6d.jpeg",
   "prices": {
-   "Migros": 134.95
+   "Migros": 189.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Koroplast%20G%C3%BC%C3%A7l%C3%BC%20B%C3%BCzg%C3%BCl%C3%BC%20%C3%87%C3%B6p%20Torbas%C4%B1%20Limon%20Kokulu%20Orta%2015'Li%22"
@@ -25919,7 +25649,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/d65944fa-10f3-4df0-990e-b785951cc30e.jpeg",
   "prices": {
-   "Migros": 189.95
+   "Migros": 99.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Koroplast%20Ya%C4%9Fl%C4%B1%20Pi%C5%9Firme%20Ka%C4%9F%C4%B1d%C4%B1%208%20M%22"
@@ -26684,7 +26414,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/icecek/l-or-al-paris-excellence-cool-creme-sac-boyasi-5-11-ekstra-kullu-acik-kahve.jpg",
   "prices": {
-   "Migros": 614.95
+   "Migros": 309.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22L%E2%80%99or%C3%A9al%20Paris%20Excellence%20Cool%20Creme%20Sa%C3%A7%20Boyas%C4%B1%20%E2%80%93%205.11%20Ekstra%20K%C3%BCll%C3%BC%20A%C3%A7%C4%B1k%20Kahve%22"
@@ -26701,7 +26431,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/icecek/l-or-al-paris-excellence-creme-nude-renkler-sac-boyasi-4u-nude-kahve.jpg",
   "prices": {
-   "Migros": 669.95
+   "Migros": 334.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22L%E2%80%99or%C3%A9al%20Paris%20Excellence%20Creme%20Nude%20Renkler%20Sa%C3%A7%20Boyas%C4%B1%20%E2%80%93%204U%20Nude%20Kahve%22"
@@ -26718,7 +26448,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/icecek/l-or-al-paris-excellence-creme-sac-boyasi-6-32-altin-acik-kahve.jpg",
   "prices": {
-   "Migros": 614.95
+   "Migros": 309.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22L'or%C3%A9al%20Paris%20Excellence%20Creme%20Sa%C3%A7%20Boyas%C4%B1%20-%206.32%20Alt%C4%B1n%20A%C3%A7%C4%B1k%20Kahve%22"
@@ -26877,23 +26607,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Lay's%20Baharatl%C4%B1%20Parti%20Boy%20160%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/lay-s-baharatli-parti-boy-160-g"
- },
- {
-  "id": "9953",
-  "name": "Lay's Baharatlı Patates Cipsi 125 G",
-  "brand": "Lays",
-  "s": "lay s baharatlı patates cipsi",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/cips/8690624105766.png",
-  "prices": {
-   "A101": 64.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Lay's%20Baharatl%C4%B1%20Patates%20Cipsi%20125%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/lay-s-baharatli-patates-cipsi-125-g"
  },
  {
   "id": "8032",
@@ -27517,7 +27230,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/8c4726cb-4944-498e-828d-769c52b181dc.jpeg",
   "prices": {
-   "Migros": 79.95
+   "Migros": 114.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Lipton%20Mango%20Ananas%20Ye%C5%9Fil%20%C3%87ay%2020'li%2030%20G%22"
@@ -28384,7 +28097,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/e17b61cb-9a36-42f4-a184-5b26763fe9f5.jpeg",
   "prices": {
-   "Migros": 229.95
+   "Migros": 99.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Mara%20Coco%20Bongo%20Hindistan%20Cevizi%20Du%C5%9F%20Jeli%20420%20ml%22"
@@ -28401,7 +28114,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/53f59f1a-dabc-42d8-96b8-49f9a6573efb.jpeg",
   "prices": {
-   "Migros": 229.95
+   "Migros": 99.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Mara%20Dreamberry%20%C3%87ilek%20Du%C5%9F%20Jeli%20420%20ml%22"
@@ -28749,6 +28462,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/maruderm-hyaluronik-asit-nemledirici-yuz-ve-vucut-cilt-bakim-kremi-100-ml"
  },
  {
+  "id": "7275",
+  "name": "Master Nut Tuzlu Leblebi 160 G",
+  "brand": "Master Nut",
+  "s": "tuzlu leblebi",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/bebek/master-nut-tuzlu-leblebi-160-g.jpg",
+  "prices": {
+   "Migros": 69.9
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Master%20Nut%20Tuzlu%20Leblebi%20160%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/master-nut-tuzlu-leblebi-160-g"
+ },
+ {
   "id": "10221",
   "name": "Master Nut X Ekonomik Kokteyl Kuruyemiş 400 G",
   "brand": "Master Nut",
@@ -28849,23 +28579,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Max%20Rosa%20Zeytinya%C4%9Fl%C4%B1%20S%C4%B1v%C4%B1%20Sabun%204%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/max-rosa-zeytinyagli-sivi-sabun-4-l"
- },
- {
-  "id": "98966",
-  "name": "Mayi İyotlu İnce Öğütülmüş Doğal Kaynak Tuzu 600 G",
-  "brand": "Mayi",
-  "s": "iyotlu ince öğütülmüş doğal kaynak tuzu",
-  "category": "Temel Gıda",
-  "icon": "🌾",
-  "weight": "",
-  "image": "https://camgoz.net/image/3d28f73f-9289-4e07-b741-43cd7c3593e5.jpeg",
-  "prices": {
-   "Migros": 191.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Mayi%20%C4%B0yotlu%20%C4%B0nce%20%C3%96%C4%9F%C3%BCt%C3%BClm%C3%BC%C5%9F%20Do%C4%9Fal%20Kaynak%20Tuzu%20600%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/mayi-iyotlu-ince-ogutulmus-dogal-kaynak-tuzu-600-g"
  },
  {
   "id": "107928",
@@ -30016,10 +29729,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/icecek/monster-enerji-icecegi-kutu-500-ml.jpg",
   "prices": {
-   "A101": 80
+   "Migros": 80
   },
   "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Monster%20Enerji%20%C4%B0%C3%A7ece%C4%9Fi%20Kutu%20500%20ml%22"
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Monster%20Enerji%20%C4%B0%C3%A7ece%C4%9Fi%20Kutu%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/monster-enerji-i-cecegi-kutu-500-ml"
  },
@@ -30209,23 +29922,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Morfose%20Bitkisel%20Tuzsuz%20%C5%9Eampuan%20500%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/morfose-bitkisel-tuzsuz-sampuan-500-ml"
- },
- {
-  "id": "18058",
-  "name": "Morfose Keratin Saç Maskesi 25 ml",
-  "brand": "Keratin",
-  "s": "morfose keratin saç maskesi",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8681701012398.png",
-  "prices": {
-   "A101": 19.5
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Morfose%20Keratin%20Sa%C3%A7%20Maskesi%2025%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/morfose-keratin-sac-maskesi-25-ml"
  },
  {
   "id": "18082",
@@ -31367,6 +31063,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/neutrogena-hizli-emilen-el-kremi-75-ml"
  },
  {
+  "id": "74541",
+  "name": "Neutrogena Hydro Boost El Kremi 75 ml",
+  "brand": "Neutrogena",
+  "s": "hydro boost el kremi",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/0f3d9a6f-e344-406d-9ae8-eecdbd1004e4.jpeg",
+  "prices": {
+   "Migros": 199.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Neutrogena%20Hydro%20Boost%20El%20Kremi%2075%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/neutrogena-hydro-boost-el-kremi-75-ml"
+ },
+ {
   "id": "49787",
   "name": "Neutrogena Yoğun Bakım Kremi 200 ml",
   "brand": "Neutrogena",
@@ -31739,6 +31452,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Nivea%20Kiraz%20%C3%87i%C3%A7e%C4%9Fi%20ve%20Jojoba%20Ya%C4%9F%C4%B1%20V%C3%BCcut%20Losyonu%20400%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/nivea-kiraz-cicegi-ve-jojoba-yagi-vucut-losyonu-400-ml"
+ },
+ {
+  "id": "50626",
+  "name": "Nivea Men Sport Duş Jeli 500 ml",
+  "brand": "Nivea",
+  "s": "men sport duş jeli",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/8468df39-79ea-4ee4-9bf0-4b63dc0148dd.jpeg",
+  "prices": {
+   "Migros": 199.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Nivea%20Men%20Sport%20Du%C5%9F%20Jeli%20500%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/nivea-men-sport-dus-jeli-500-ml"
  },
  {
   "id": "18503",
@@ -32277,7 +32007,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/b3345ea6-82b0-4f95-a29f-088f85c602f5.jpeg",
   "prices": {
-   "Migros": 331.95
+   "Migros": 179.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Old%20Spice%20Epic%20Legend%20Du%C5%9F%20Jeli%20400%20ml%22"
@@ -33458,74 +33188,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/palette-goz-alici-renkler-yogun-kizil-sac-boyasi-6-88"
  },
  {
-  "id": "50558",
-  "name": "Palmolive Aroma Sensations So Firm Duş Jeli 500 ml",
-  "brand": "Palmolive",
-  "s": "aroma sensations so firm duş jeli",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/c921054c-9010-4dd0-b78f-b4818502b551.jpeg",
-  "prices": {
-   "Migros": 369.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Palmolive%20Aroma%20Sensations%20So%20Firm%20Du%C5%9F%20Jeli%20500%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/palmolive-aroma-sensations-so-firm-dus-jeli-500-ml"
- },
- {
-  "id": "93005",
-  "name": "Palmolive Body Butter Çilek Rüyası Duş Jeli 500 ml",
-  "brand": "Palmolive",
-  "s": "body butter çilek rüyası duş jeli",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/fac5683e-28e6-4fa4-80aa-c05bae6fa042.jpeg",
-  "prices": {
-   "Migros": 369.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Palmolive%20Body%20Butter%20%C3%87ilek%20R%C3%BCyas%C4%B1%20Du%C5%9F%20Jeli%20500%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/palmolive-body-butter-cilek-ruyasi-dus-jeli-500-ml"
- },
- {
-  "id": "93144",
-  "name": "Palmolive Body Butter Hindistan Cevizi Duş Jeli 500 ml",
-  "brand": "Palmolive",
-  "s": "body butter hindistan cevizi duş jeli",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/e285b2f7-cf2e-405b-83a5-2242a4ad7437.jpeg",
-  "prices": {
-   "Migros": 369.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Palmolive%20Body%20Butter%20Hindistan%20Cevizi%20Du%C5%9F%20Jeli%20500%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/palmolive-body-butter-hindistan-cevizi-dus-jeli-500-ml"
- },
- {
-  "id": "124548",
-  "name": "Palmolive Body Butter Vanilya Aşkı Duş Jeli 500 ml",
-  "brand": "Palmolive",
-  "s": "body butter vanilya aşkı duş jeli",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/db25c5ed-9e71-479b-bb6c-0c96296eaf3c.jpeg",
-  "prices": {
-   "Migros": 369.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Palmolive%20Body%20Butter%20Vanilya%20A%C5%9Fk%C4%B1%20Du%C5%9F%20Jeli%20500%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/palmolive-body-butter-vanilya-aski-dus-jeli-500-ml"
- },
- {
   "id": "18208",
   "name": "Palmolive Energy Duş Jeli 750 ml",
   "brand": "Palmolive",
@@ -33611,21 +33273,38 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/palmolive-relaxed-dus-jeli-750-ml"
  },
  {
-  "id": "51321",
-  "name": "Pantene Güç ve Parlaklık Şampuan 800 ml",
+  "id": "18086",
+  "name": "Pantene Dökülme Karşıtı Şampuan 400 ml",
   "brand": "Pantene",
-  "s": "güç ve parlaklık şampuan",
+  "s": "dökülme karşıtı şampuan",
   "category": "Kişisel Bakım",
   "icon": "🧼",
   "weight": "",
-  "image": "https://file.camgoz.net/057a7427-0a6d-4a3e-9925-f4a6029020a8.jpeg",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8700216555258.png",
   "prices": {
-   "Migros": 249.95
+   "Migros": 119.95
   },
   "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20G%C3%BC%C3%A7%20ve%20Parlakl%C4%B1k%20%C5%9Eampuan%20800%20ml%22"
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20D%C3%B6k%C3%BClme%20Kar%C5%9F%C4%B1t%C4%B1%20%C5%9Eampuan%20400%20ml%22"
   },
-  "uygunoUrl": "https://uyguno.com/urun/pantene-guc-ve-parlaklik-sampuan-800-ml"
+  "uygunoUrl": "https://uyguno.com/urun/pantene-dokulme-karsiti-sampuan-400-ml"
+ },
+ {
+  "id": "50392",
+  "name": "Pantene Güç ve Parlaklık 3ü1 Arada Şampuan 400 ml",
+  "brand": "Pantene",
+  "s": "güç ve parlaklık 3ü1 arada şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/584eff3a-e7cc-442f-8856-e6baca824e5b.jpeg",
+  "prices": {
+   "Migros": 119.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20G%C3%BC%C3%A7%20ve%20Parlakl%C4%B1k%203%C3%BC1%20Arada%20%C5%9Eampuan%20400%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/pantene-guc-ve-parlaklik-3u1-arada-sampuan-400-ml"
  },
  {
   "id": "18055",
@@ -33645,6 +33324,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/pantene-isiyla-aktiflesen-nem-takviyesi-sac-kremi-135-ml"
  },
  {
+  "id": "18085",
+  "name": "Pantene Kepek Karşıtı Şampuan 400 ml",
+  "brand": "Pantene",
+  "s": "kepek karşıtı şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/sac-bakim/8700216555371.png",
+  "prices": {
+   "Migros": 119.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20Kepek%20Kar%C5%9F%C4%B1t%C4%B1%20%C5%9Eampuan%20400%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/pantene-kepek-karsiti-sampuan-400-ml"
+ },
+ {
   "id": "18057",
   "name": "Pantene Nem Takviyesi Saç Kremi 275 ml",
   "brand": "Pantene",
@@ -33662,23 +33358,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/pantene-nem-takviyesi-sac-kremi-275-ml"
  },
  {
-  "id": "18056",
-  "name": "Pantene Nem Takviyesi Şampuan 400 ml",
-  "brand": "Pantene",
-  "s": "nem takviyesi şampuan",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://uyguno.com/uploads/products/sac-bakim/8700216939546.png",
-  "prices": {
-   "A101": 125
-  },
-  "links": {
-   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Pantene%20Nem%20Takviyesi%20%C5%9Eampuan%20400%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/pantene-nem-takviyesi-sampuan-400-ml"
- },
- {
   "id": "51028",
   "name": "Pantene Onarıcı & Koruyucu Şampuan 800 ml",
   "brand": "Pantene",
@@ -33694,6 +33373,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20Onar%C4%B1c%C4%B1%20%26%20Koruyucu%20%C5%9Eampuan%20800%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/pantene-onarici-koruyucu-sampuan-800-ml"
+ },
+ {
+  "id": "65263",
+  "name": "Pantene Temel Bakım Şampuan 400 ml",
+  "brand": "Pantene",
+  "s": "temel bakım şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/531b95ac-4d05-4494-b0fa-11218b43e4c8.jpeg",
+  "prices": {
+   "Migros": 119.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Pantene%20Temel%20Bak%C4%B1m%20%C5%9Eampuan%20400%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/pantene-temel-bakim-sampuan-400-ml"
  },
  {
   "id": "36625",
@@ -33728,40 +33424,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Papia%20Havlu%2012'li%203%20Katl%C4%B1%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/papia-havlu-12-li-3-katli"
- },
- {
-  "id": "133687",
-  "name": "Papia Kutu Mendil 100'lü",
-  "brand": "Papia",
-  "s": "kutu mendil",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://camgoz.net/image/a5d69fcc-0de5-42b4-ab70-d899d352ba3a.jpeg",
-  "prices": {
-   "Migros": 119.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Papia%20Kutu%20Mendil%20100'l%C3%BC%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/papia-kutu-mendil-100-lu"
- },
- {
-  "id": "104487",
-  "name": "Papia Platinum Çek Al Mendil 125'li",
-  "brand": "Papia",
-  "s": "platinum çek al mendil",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/1ad970e9-a8e3-45e8-b0b9-6fbbcda9b72b.jpeg",
-  "prices": {
-   "Migros": 79.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Papia%20Platinum%20%C3%87ek%20Al%20Mendil%20125'li%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/papia-platinum-cek-al-mendil-125-li"
  },
  {
   "id": "18253",
@@ -33926,7 +33588,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/25fbbfa5-8c44-46e4-bf78-9cf4bace1759.jpeg",
   "prices": {
-   "Migros": 149.95
+   "Migros": 109.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Parex%20Temizlik%20Bezi%205'li%22"
@@ -36042,6 +35704,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/polonez-fistikli-macar-salam-kg"
  },
  {
+  "id": "128132",
+  "name": "Polonez Füme Et Karabiberli 90 G",
+  "brand": "Polonez",
+  "s": "füme et karabiberli",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://file.camgoz.net/0d9c4702-c7ec-4f13-b9f7-76a15574c459.jpeg",
+  "prices": {
+   "Migros": 319
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Polonez%20F%C3%BCme%20Et%20Karabiberli%2090%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/polonez-fume-et-karabiberli-90-g"
+ },
+ {
   "id": "2501",
   "name": "Polonez Hindi Fıstıklı Salam 2x90 G",
   "brand": "Polonez",
@@ -36093,6 +35772,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/polonez-kangal-sucuk-kg"
  },
  {
+  "id": "3042",
+  "name": "Polonez Karabiberli Hindi Füme Eti kg",
+  "brand": "Polonez",
+  "s": "karabiberli hindi füme eti",
+  "category": "Temel Gıda",
+  "icon": "🌾",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/et-tavuk-balik/polonez-karabiberli-hindi-fume-eti-kg.jpg",
+  "prices": {
+   "Migros": 1925
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Polonez%20Karabiberli%20Hindi%20F%C3%BCme%20Eti%20kg%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/polonez-karabiberli-hindi-fume-eti-kg"
+ },
+ {
   "id": "2507",
   "name": "Polonez Piliç Dilimli Salam 60 G",
   "brand": "Polonez",
@@ -36125,6 +35821,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Polonez%20Pili%C3%A7%20Jumbo%20Sosis%20Cheddarl%C4%B1%20280%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/polonez-pilic-jumbo-sosis-cheddarli-280-g"
+ },
+ {
+  "id": "3044",
+  "name": "Polonez Rozbif Biberli Füme Et kg",
+  "brand": "Polonez",
+  "s": "rozbif biberli füme et",
+  "category": "Manav",
+  "icon": "🥬",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/et-tavuk-balik/polonez-rozbif-biberli-fume-et-kg.jpg",
+  "prices": {
+   "Migros": 3850
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Polonez%20Rozbif%20Biberli%20F%C3%BCme%20Et%20kg%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/polonez-rozbif-biberli-fume-et-kg"
  },
  {
   "id": "16403",
@@ -36578,7 +36291,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/f5cb0771-78ba-4a97-a35d-50eefa95262a.jpeg",
   "prices": {
-   "Migros": 789.95
+   "Migros": 499.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Prima%20Aktif%20Bebek%20Ekonomik%20Paket%203%20Beden%206-10%20Kg%2062%20Adet%22"
@@ -36612,7 +36325,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/d56fd0dc-c0ea-4a61-a83c-7c0fc0517679.jpeg",
   "prices": {
-   "Migros": 999.95
+   "Migros": 799.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Prima%20Bebek%20Bezi%20Premium%20Care%203%20Numara%2052'li%206-10%20Kg%20Ekonomik%20Paket%22"
@@ -36629,7 +36342,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/3bc38992-70cf-4f3c-94f4-51e934ca7b6b.jpeg",
   "prices": {
-   "Migros": 1699.95
+   "Migros": 1299.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Prima%20Bebek%20Bezi%20Premium%20Care%204%20Beden%20Maxi%20Ultra%20F%C4%B1rsat%20Paketi%209-14%20Kg%2084%20Adet%22"
@@ -36646,7 +36359,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/478cfd14-9b6f-4e53-9452-1f66acc37154.jpeg",
   "prices": {
-   "Migros": 999.95
+   "Migros": 799.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Prima%20Bebek%20Bezi%20Premium%20Care%204%20Numara%2046'l%C4%B1%209-14%20Kg%20Ekonomik%20Paket%22"
@@ -36680,7 +36393,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/d38f61ae-d934-4615-862c-47ce37d93417.jpeg",
   "prices": {
-   "Migros": 1049.95
+   "Migros": 749.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Prima%20K%C3%BClot%20Bebek%20Bezi%206%20Numara%2052%20Adet%20F%C4%B1rsat%20Paketi%22"
@@ -37445,7 +37158,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/458bb0e0-60d4-4130-b284-9fb51df98a08.jpeg",
   "prices": {
-   "Migros": 100
+   "Migros": 59.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Restorex%20%C5%9Eampuan%20(7%20Besleyici%20Ya%C4%9F)%20500%20ml%22"
@@ -37604,6 +37317,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Rinso%20Toz%20%C3%87ama%C5%9F%C4%B1r%20Deterjan%C4%B1%20Limon%20ve%20Karbonat%20Renkliler%20ve%20Beyazlar%20i%C3%A7in%20Derinlemesine%20Temizlik%206%20kg%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/rinso-toz-camasir-deterjani-limon-ve-karbonat-renkliler-ve-beyazlar-icin-derinlemesine-temizlik-6-kg"
+ },
+ {
+  "id": "8416",
+  "name": "Ritter Sport Tuzlu Karamelli Çikolata 218 G",
+  "brand": "Ritter Sport",
+  "s": "tuzlu karamelli çikolata",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/cikolata/4000417663313.png",
+  "prices": {
+   "A101": 89
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Ritter%20Sport%20Tuzlu%20Karamelli%20%C3%87ikolata%20218%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/ritter-sport-tuzlu-karamelli-cikolata-218-g"
  },
  {
   "id": "5949",
@@ -39527,40 +39257,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/selpak-klasik-mendil-10-lu"
  },
  {
-  "id": "95112",
-  "name": "Selpak Kutu Mendil 50'li",
-  "brand": "Selpak",
-  "s": "kutu mendil",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/21c45767-fe66-4fd3-98bd-870d2b8f49c5.jpeg",
-  "prices": {
-   "Migros": 86.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Selpak%20Kutu%20Mendil%2050'li%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/selpak-kutu-mendil-50-li"
- },
- {
-  "id": "36466",
-  "name": "Selpak Mentollü Mendil 10'lu",
-  "brand": "Selpak",
-  "s": "mentollü mendil",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/ae3c8eef-1d6f-4918-a7e7-326d1be3d767.jpeg",
-  "prices": {
-   "Migros": 109.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Selpak%20Mentoll%C3%BC%20Mendil%2010'lu%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/selpak-mentollu-mendil-10-lu"
- },
- {
   "id": "78998",
   "name": "Selpak Organik Bambu Özlü & Pamuk Özlü Islak Mendil 50'li",
   "brand": "Selpak",
@@ -40335,7 +40031,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/b7daa692-bc48-481d-9a0b-ab1babe17d48.png",
   "prices": {
-   "Migros": 25.5
+   "Migros": 27.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22S%C4%B1rma%20Do%C4%9Fal%20Kaynak%20Suyu%201.5%20L%22"
@@ -40352,7 +40048,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/848e8f10-caa5-4d9f-bb69-5e3b361a1a9f.jpeg",
   "prices": {
-   "Migros": 48.5
+   "Migros": 54.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22S%C4%B1rma%20Do%C4%9Fal%20Kaynak%20Suyu%205%20L%22"
@@ -40369,7 +40065,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://camgoz.net/image/a578868c-332a-4676-bdb2-edaa4e8b23af.jpeg",
   "prices": {
-   "Migros": 12.95
+   "Migros": 15.25
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22S%C4%B1rma%20Do%C4%9Fal%20Kaynak%20Suyu%20500%20ml%22"
@@ -40562,23 +40258,6 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Signal%20Wh%C4%B1te%20Now%20Original%20Di%C5%9F%20Macunu%202x75Ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/signal-white-now-original-dis-macunu-2x75ml"
- },
- {
-  "id": "78131",
-  "name": "Signal White Now Diş Macunu Original Uzun Süren Beyazlık 75 ml",
-  "brand": "Signal",
-  "s": "white now diş macunu original uzun süren beyazlık",
-  "category": "Kişisel Bakım",
-  "icon": "🧼",
-  "weight": "",
-  "image": "https://file.camgoz.net/d507fa38-0a22-4b62-88e2-c5cc4360bd04.jpeg",
-  "prices": {
-   "Migros": 99
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Signal%20White%20Now%20Di%C5%9F%20Macunu%20Original%20Uzun%20S%C3%BCren%20Beyazl%C4%B1k%2075%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/signal-white-now-dis-macunu-original-uzun-suren-beyazlik-75-ml"
  },
  {
   "id": "89334",
@@ -40783,6 +40462,23 @@ export const PRODUCTS = [
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Sizzle-Pop%20Summer%20Champ%20%C5%9Eeftali%20Elma%20Ananas%20200%20ml%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/sizzle-pop-summer-champ-seftali-elma-ananas-200-ml"
+ },
+ {
+  "id": "125212",
+  "name": "Skittles Sours Ekşi Meyve Aromalı Draje Şekerleme 38 G",
+  "brand": "",
+  "s": "skittles sours ekşi meyve aromalı draje şekerleme",
+  "category": "Atıştırmalık",
+  "icon": "🍫",
+  "weight": "",
+  "image": "https://file.camgoz.net/d46b10b7-94ed-486b-a283-a0b0b7093637.jpeg",
+  "prices": {
+   "Migros": 49.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Skittles%20Sours%20Ek%C5%9Fi%20Meyve%20Aromal%C4%B1%20Draje%20%C5%9Eekerleme%2038%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/skittles-sours-eksi-meyve-aromali-draje-sekerleme-38-g"
  },
  {
   "id": "17348",
@@ -41015,7 +40711,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/07923dc8-2a07-4145-997b-2ecba4c885a4.jpeg",
   "prices": {
-   "Migros": 184.95
+   "Migros": 99.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Sleepy%20Mutfak%20Havlusu%20Do%C4%9Fal%20Limon%20Ya%C4%9Fl%C4%B1%2050'li%22"
@@ -41202,7 +40898,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": null,
   "prices": {
-   "Migros": 49.95
+   "Migros": 59.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Sofia%20Cep%20Mendil%208'li%22"
@@ -41287,7 +40983,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/4fbd18df-feea-45fe-b782-b895479d077c.jpeg",
   "prices": {
-   "Migros": 89.95
+   "Migros": 69.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Sofia%20Skin%20Love%20Pudra%20Kokulu%20Mendil%20100'l%C3%BC%22"
@@ -45409,23 +45105,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/torku-summer-mangolu-hindistan-cevizli-gofret-32-g"
  },
  {
-  "id": "129800",
-  "name": "Torku Süt Çilekli 6X180 ml",
-  "brand": "Torku",
-  "s": "süt çilekli",
-  "category": "Süt & Kahvaltı",
-  "icon": "🥛",
-  "weight": "",
-  "image": "https://file.camgoz.net/f84448bc-9ae4-4df4-8e8f-85e92e9033a6.jpeg",
-  "prices": {
-   "Migros": 126.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Torku%20S%C3%BCt%20%C3%87ilekli%206X180%20ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/torku-sut-cilekli-6x180-ml"
- },
- {
   "id": "14701",
   "name": "Torku Sütlü Kahveli İçecek Latte 500 ml",
   "brand": "Torku",
@@ -45673,10 +45352,10 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://uyguno.com/uploads/products/sut/8680181000048.png",
   "prices": {
-   "Migros": 65
+   "A101": 65
   },
   "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Torku%20Yar%C4%B1m%20Ya%C4%9Fl%C4%B1%20S%C3%BCt%201%20L%22"
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Torku%20Yar%C4%B1m%20Ya%C4%9Fl%C4%B1%20S%C3%BCt%201%20L%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/torku-yarim-yagli-sut-1-l"
  },
@@ -45894,7 +45573,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/e0ca126c-e776-4d80-87c7-cd345311a329.jpeg",
   "prices": {
-   "Migros": 639.95
+   "Migros": 384.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Tresan%20Is%C4%B1rgan%20Otu%20%C5%9Eampuan%C4%B1%20Normal%20Kuru%20300%20ml%22"
@@ -46412,40 +46091,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/uludag-sifir-kalori-tonik-250-ml"
  },
  {
-  "id": "78238",
-  "name": "Unı Baby Bebeksi Dokunuş Bebek Kolonyası 150Ml",
-  "brand": "Uni Baby",
-  "s": "unı baby bebeksi dokunuş bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/27fa2230-3254-48b4-9782-318dc6c26011.jpeg",
-  "prices": {
-   "Migros": 99.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Un%C4%B1%20Baby%20Bebeksi%20Dokunu%C5%9F%20Bebek%20Kolonyas%C4%B1%20150Ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/uni-baby-bebeksi-dokunus-bebek-kolonyasi-150ml"
- },
- {
-  "id": "78230",
-  "name": "Unı Baby Çiçeksi Ferahlık Bebek Kolonyası 150Ml",
-  "brand": "Uni Baby",
-  "s": "unı baby çiçeksi ferahlık bebek kolonyası",
-  "category": "Bebek",
-  "icon": "🍼",
-  "weight": "",
-  "image": "https://file.camgoz.net/0b691ee4-df02-4f73-8b16-423d5cdf561d.jpeg",
-  "prices": {
-   "Migros": 99.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Un%C4%B1%20Baby%20%C3%87i%C3%A7eksi%20Ferahl%C4%B1k%20Bebek%20Kolonyas%C4%B1%20150Ml%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/uni-baby-ciceksi-ferahlik-bebek-kolonyasi-150ml"
- },
- {
   "id": "36537",
   "name": "Uni Baby Biberon ve Emzik Temizleyicısi 500Ml",
   "brand": "Uni Baby",
@@ -46506,7 +46151,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/682bd81b-7c56-4358-93f3-b0360aee2531.jpeg",
   "prices": {
-   "Migros": 95
+   "Migros": 99.5
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Uno%20Gurme%20Ek%C5%9Fi%20Mayal%C4%B1%20B%C3%BCy%C3%BCk%20Sandvi%C3%A7%20Ekme%C4%9Fi%204'l%C3%BC%20400%20G%22"
@@ -46540,7 +46185,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/a3b2c3d3-c752-438e-b020-43ef85aa891f.jpeg",
   "prices": {
-   "Migros": 109.5
+   "Migros": 119.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Uno%20Tam%20Bu%C4%9Fday%20Lava%C5%9F%205'li%20325%20G%22"
@@ -46557,7 +46202,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/1239b44b-ada9-4225-9522-fea87cbee528.jpeg",
   "prices": {
-   "Migros": 109.5
+   "Migros": 119.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Uno%20Tand%C4%B1r%20Lava%C5%9F%206'l%C4%B1%20282%20G%22"
@@ -46582,6 +46227,23 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/untad-zeytinli-cesnili-tortilla-lavas-390-g"
  },
  {
+  "id": "93409",
+  "name": "Urban Care Argan Oil & Keratin Şampuan 350 ml",
+  "brand": "Keratin",
+  "s": "urban care argan oil keratin şampuan",
+  "category": "Kişisel Bakım",
+  "icon": "🧼",
+  "weight": "",
+  "image": "https://file.camgoz.net/8e51b280-b042-466f-af5a-4caf131660da.jpeg",
+  "prices": {
+   "Migros": 264.95
+  },
+  "links": {
+   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Urban%20Care%20Argan%20Oil%20%26%20Keratin%20%C5%9Eampuan%20350%20ml%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/urban-care-argan-oil-keratin-sampuan-350-ml"
+ },
+ {
   "id": "51590",
   "name": "URBAN Care EXPERT Biotin&kafein Saç Bakım Şampuanı 350ml",
   "brand": "Urban Care",
@@ -46591,7 +46253,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/9c7e1140-3081-4e3c-ad2b-c926a58bcb39.jpeg",
   "prices": {
-   "Migros": 749.95
+   "Migros": 449.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22URBAN%20Care%20EXPERT%20Biotin%26kafein%20Sa%C3%A7%20Bak%C4%B1m%20%C5%9Eampuan%C4%B1%20350ml%22"
@@ -48512,7 +48174,7 @@ export const PRODUCTS = [
   "weight": "",
   "image": "https://file.camgoz.net/8aac1c59-b228-4f5e-88a5-c564fc2dcc3d.jpeg",
   "prices": {
-   "Migros": 544.95
+   "Migros": 647.95
   },
   "links": {
    "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Vaseline%20Gluta-Hya%20Losyon%20Leke%20Kar%C5%9F%C4%B1t%C4%B1%20200%20ml%22"
@@ -48554,23 +48216,6 @@ export const PRODUCTS = [
   "uygunoUrl": "https://uyguno.com/urun/veg-bones-balkabagi-corbasi-190-g"
  },
  {
-  "id": "143184",
-  "name": "Veggy Bitki Bazlı Protein 200 G",
-  "brand": "Veggy",
-  "s": "bitki bazlı protein",
-  "category": "İçecek",
-  "icon": "🥤",
-  "weight": "",
-  "image": "https://camgoz.net/image/6a090ee8-7c03-45bc-ad2e-755904326733.jpeg",
-  "prices": {
-   "Migros": 342.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Veggy%20Bitki%20Bazl%C4%B1%20Protein%20200%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/veggy-bitki-bazli-protein-200-g"
- },
- {
   "id": "16397",
   "name": "Veggy Dondurulmuş Vegan Köfte 220 G",
   "brand": "Veggy",
@@ -48586,23 +48231,6 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Veggy%20Dondurulmu%C5%9F%20Vegan%20K%C3%B6fte%20220%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/veggy-dondurulmus-vegan-kofte-220-g"
- },
- {
-  "id": "109181",
-  "name": "Veggy Vegan Köfte Karışımı 200 G",
-  "brand": "Veggy",
-  "s": "vegan köfte karışımı",
-  "category": "Et & Şarküteri",
-  "icon": "🍖",
-  "weight": "",
-  "image": "https://camgoz.net/image/4ecd0413-c9f9-4828-ab61-2263e418db12.jpeg",
-  "prices": {
-   "Migros": 296.95
-  },
-  "links": {
-   "Migros": "https://www.google.com/search?q=site%3Amigros.com.tr%20%22Veggy%20Vegan%20K%C3%B6fte%20Kar%C4%B1%C5%9F%C4%B1m%C4%B1%20200%20G%22"
-  },
-  "uygunoUrl": "https://uyguno.com/urun/veggy-vegan-kofte-karisimi-200-g"
  },
  {
   "id": "12401",
@@ -51884,6 +51512,23 @@ export const PRODUCTS = [
    "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Zeo%20Siyah%20Zeytin%20S-XS%201000%20G%22"
   },
   "uygunoUrl": "https://uyguno.com/urun/zeo-siyah-zeytin-s-xs-1000-g"
+ },
+ {
+  "id": "6780",
+  "name": "Zeo Siyah Zeytin XS-2XS 250 G",
+  "brand": "Zeo",
+  "s": "siyah zeytin",
+  "category": "Süt & Kahvaltı",
+  "icon": "🥛",
+  "weight": "",
+  "image": "https://uyguno.com/uploads/products/zeytin/8699118034384.png",
+  "prices": {
+   "A101": 58.5
+  },
+  "links": {
+   "A101": "https://www.google.com/search?q=site%3Aa101.com.tr%20%22Zeo%20Siyah%20Zeytin%20XS-2XS%20250%20G%22"
+  },
+  "uygunoUrl": "https://uyguno.com/urun/zeo-siyah-zeytin-xs-2xs-250-g"
  },
  {
   "id": "18522",
